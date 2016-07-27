@@ -67,13 +67,14 @@
 ### Mac Config
 
 #### Apache	
-	- apache web server included
+	- apache web server included // httpd -v
 	- web sharing option removed
 	- sites directory removed
 	- configure
+	- apachectl stop, start & retart
 
 #### PHP
-	- php included
+	- php included  // php -v
 	- configure
 
 #### MySql database
