@@ -71,7 +71,22 @@
 	- web sharing option removed
 	- sites directory removed
 	- configure
-	- apachectl stop, start & retart
+	- apachectl stop, start & restart
+	- runs local environment at https://localhost
+
+#### Default document root
+	- /Library/WebServer/Documents
+	  
+	  //It is good practice to set your own document root at "User document root"
+	  //New User document root at:
+	- /Users/username/Sites
+
+	  //Apache configuration directory
+	- /etc/apache2/users	
+
+
+
+
 
 #### PHP
 	- php included  // php -v
