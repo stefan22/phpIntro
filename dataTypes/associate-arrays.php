@@ -20,7 +20,7 @@
 
 				<?php echo $assoc["first_name"] . " " . $assoc["last_name"]; ?>
 
-				<?php $assoc["first_name"] = "Michael";
+				<?php $assoc["first_name"] = "Michael"; ?>
 
 			
 		
