@@ -52,3 +52,11 @@
 
 
 
+					Another type of encoding (these are for GET's)
+
+													rawurlencode($string);
+
+														-Letters,numbers,underscore and dash are unchanged
+														-Reserved characters become % + 2-digit hexidecimal
+														-Spaces become "%20"
+
