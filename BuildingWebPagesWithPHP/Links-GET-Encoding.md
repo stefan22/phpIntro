@@ -63,3 +63,106 @@
 														-Reserved characters become % + 2-digit hexidecimal
 														-Spaces become "%20"
 
+
+
+
+	##Encoding for HTML
+			-Meaning that we don't want to output strings with characters that have special meaning for HTML (such as <> for <p>, <div> etc) or
+			 will break our HTML
+
+			-Reserved Characters in HTML => <, >, &, "
+
+						< ........... &lt;
+						> ........... &gt;
+						& ........... &amp;
+						" ........... &quot;
+
+		
+		2 functions for encoding HTML in PHP:
+		
+			-htmlspecialchars()
+
+					ex.      
+								<a href="">
+								<Click> & learn more
+								</a>
+
+
+								then:
+
+								<?php
+									$linktext = "<Click> & learn more";
+								?>
+
+								<a href="">
+								<?php echo htmlspecialchars($linktext); ?>
+								</a>
+
+
+		    -htmlentities()
+
+		    		ex.
+		    					$text = "£€";
+		    					echo $text;
+
+		    					then:
+;
+		    					echo htmlentities($text)
+
+
+
+
+	##Example URL
+
+		<?php	//What to use when
+
+		$url_page = "php/created/page/url.php";
+		$param1 = "This is a string with < >";
+		$param2 = "&?*[]+ are bad characters";
+		$linktext = "<Click> & learn more";
+
+		$url = "http://localhost/";
+		$url .= "rawulrencode(url_page)";
+		$url .= "?" . "$param1=" . urlencode($param1);
+		$url .= "&" . "$param2=" . urlencode($param2);
+
+		?>
+
+		<a href="<?php echo htmlspecialchars($url); ?>"><?php echo htmlspecialchars($linktext); ?></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
