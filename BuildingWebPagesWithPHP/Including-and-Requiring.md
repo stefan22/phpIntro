@@ -16,5 +16,7 @@
 	##Require() function
 
 		-It does the same thing as return, except that it raises a fatal page error if the page can't be found
+		-Include doesn't do that, if it can't find your file, it will keep on going
+		
 
 		 
