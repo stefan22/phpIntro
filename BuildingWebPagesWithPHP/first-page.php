@@ -8,10 +8,8 @@
 	<body>
 
 		<?php $link_name = "Second Page"; ?>
-		<a href="second-page.php"><?php echo $link_name; ?></a>	
-
-
 		<?php $id =2; ?>
+		
 		<a href="second-page.php?id=<?php echo $id; ?>"><?php echo $link_name; ?></a>
 
 

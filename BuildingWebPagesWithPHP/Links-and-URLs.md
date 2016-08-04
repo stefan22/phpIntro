@@ -24,3 +24,19 @@
 			<?php $link_name = "Second Page"; ?>
 			<a href="second-page.php"><?php echo $link_name; ?></a>	
 
+    ##GET values
+
+			###parameters
+    			
+    				-single parameter
+    					somepage.php?page=2  		//name of parameter, equal sign, value of parameter
+			
+					-multiple parameters			//by using the ampersand 
+						somepage.php?category=7&page=3
+
+			-In PHP whenever a page request is made, PHP is automatically going to take all of those query parameters
+			 that were sent with the URL and put them into an associative array where we can access them => Super Global variable
+
+			-$_GET -> superglobal variable that gets assigned all of the queries/parameters in the form of an associative array
+
+
