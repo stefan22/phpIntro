@@ -14,5 +14,28 @@
 		<a href="second-page.php?id=<?php echo $id; ?>&company=<?php echo urlencode($company); ?>"> <?php echo $link_name; ?></a>
 
 
+		<br/><br/><br>
+		<hr />
+		<br/><br/><br>
+
+
+		<h3>rawurlencode and urlencode:</h3>
+		<?php
+			$page = "William Shakespeare";
+			$quote = "To be or not to be";
+			$link1 = "/bio" . rawurlencode($page) . "?quote=" . urlencode($quote);
+
+
+			echo $link1;
+
+		?>
+
+
+
+
+
+
+
+
 	</body>
 </html>
