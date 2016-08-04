@@ -35,8 +35,8 @@
 						somepage.php?category=7&page=3
 
 			-In PHP whenever a page request is made, PHP is automatically going to take all of those query parameters
-			 that were sent with the URL and put them into an associative array where we can access them => Super Global
-			 variable
+			 that were sent with the URL and put them into an associative array where we can 
+			 access them => Super Global variable
 
 			-$_GET -> superglobal variable that gets assigned all of the queries/parameters in the form of an 
 			associative array
