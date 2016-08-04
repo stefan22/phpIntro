@@ -40,3 +40,15 @@
 			-$_GET -> superglobal variable that gets assigned all of the queries/parameters in the form of an associative array
 
 
+			- When passing values using GET, we need to be aware of Reserved Characters in URLs
+					-Encoding a reserved character means converting that character to a percentage sign followed by a pair of haxadecimal digits
+
+					-PHP lets us encode by using:
+													urlencode($string);
+
+														-Letters,numbers,underscore and dash are unchanged
+														-Reserved characters become % + 2-digit hexidecimal
+														-Spaces become "+"
+
+
+

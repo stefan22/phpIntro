@@ -8,7 +8,11 @@
 	<body>
 		<pre>
 			<?php
-				print_r($_GET);
+				//print_r($_GET);
+				$id = $_GET['id'];
+				echo $id . "<br/>";
+				$company = $_GET["company"];
+				echo $company;
 			?>
 		</pre>
 
