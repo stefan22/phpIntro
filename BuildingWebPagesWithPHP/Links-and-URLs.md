@@ -1,5 +1,5 @@
 #Links and URLs
-	##Request Response Cycle
+	## Request Response Cycle
 		-Request starts at the Browser
 		-Goes to web server
 		-Web server processes our PHP
