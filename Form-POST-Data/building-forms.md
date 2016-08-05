@@ -73,5 +73,40 @@
 				?>
 
 
+#Single Page form processing
+============================
+
+	- Advantages:
+					- All logic related to the form is in one line
+					- Redisplay the form on errors
+						- Return error messages
+						- Populate fields with previous values
+					
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
