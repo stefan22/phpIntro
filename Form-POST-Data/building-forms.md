@@ -1,4 +1,5 @@
 #Pages that have forms for submiting form data
+==============================================
 
 	URL/Links	===>	GET
 
@@ -24,6 +25,52 @@
 			//you could also do something like this:
 
 			$username = $_POST["useranme"];
+
+
+#Detecting Form Submission
+==========================
+	- we can retrieve values from a form when a form is submitted, but if URL was loaded directly, instead of being submitted by
+	  the form, then the key values that were expected to be in the POST array weren't there.
+
+	  To solve that:
+
+	  			<?php
+					//it also sets default values of empty if its not set
+					if (isset($_POST["username"])) {
+						
+						$username = $_POST["username"];
+					
+					} else {
+						$username = "";
+					}
+
+					if (isset($_POST["password"])) {
+						$password = $_POST["password"];
+					} else {
+						$password = "";
+					}
+
+
+					echo "Username: {$username}<br /> Password: {$password}";
+			
+
+				?>
+
+				//same thing using a ternary operator
+				// boolean_test ? value_if_true : value_if_false
+				$username = isset($_POST["username"]) ? $_POST["username"] : "";
+				$password = isset($_POST["password"]) ? $_POST["password"] : "";
+
+				echo "{$username}: {$password}";
+
+
+				//another way-better
+
+				<?php
+					if (isset($_POST["submit"])) {
+						echo "form was submitted";
+					}
+				?>
 
 
 

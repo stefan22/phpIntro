@@ -27,5 +27,11 @@
 
 		?>
 
+				<?php
+					if (isset($_POST["submit"])) {
+						echo "form was submitted";
+					}
+				?>
+
 	</body>
 </html>
