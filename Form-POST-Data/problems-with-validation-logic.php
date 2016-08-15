@@ -6,77 +6,58 @@
 		<title>validations</title>
 	</head>
 	<body>
-		<h3><u>Validations</u></h3>
+		<h3><u>False Positives</u></h3>
 		
 		<?php
 
-		//presence
-		$value = "x";
-		if (!isset($value) || empty($value)) {
-			echo "-presence validation failed<br /><br />";
-		} else {
-			echo "-passed presence validation<br /><br />";
-		}
+		function is_equal($value1, $value2) {
+			$output = "{$value1} == {$value2}: ";
 
-		// string length
-		// min length
-		$min = 3;
-		$value = "hello";
-		if (strlen($value) < $min) {
-			echo "-min length validation failed<br/><br/>";
-		} else {
-			echo "-passed min length validation<br/><br/>";
-		}
+			if ($value1 == $value2) {
+				$output .= "true <br />";
+			} else {
+				$output .= "false <br />";
+			}
 
-		//string length
-		//max length
-		$max = 6;
-		$value = "home";
-		if (strlen($value) > $max) {
-			echo "-failed max length validation<br /><br />";
-		} else {
-			echo "-passed max length validation<br/><br/>";
-		}
-
-		// type
-		$value = "string";
-		if (!is_string($value)) {
-			echo "-failed type validation for string<br /><br/>";
-		} else {
-			echo "-passed type string validation<br /><br />";
-		}
-
-		// inclusion in a set
-		$value = 1;
-		$number = array(1,2,3,4,5);
-		if (!in_array($value, $number)) {
-			echo "-failed inclusion in a set validation<br /><br />";
-		} else {
-			echo "-passed inclusion in a set validation<br/><br/>";
-		}
-
-		// uniqueness
-			//we really can't do without databases
-			//uses a database to check uniqueness
-			//basic idea is, when a value is submitted, we take that value and check it against db.
-
-		// format
-		// use a regex on a string
-		// preg_match($regex, $subject)
-		if (preg_match("/PHP/", "PHP is fun.")) {
-			echo "-regex on a string: A match was found<br /><br />";
-		} else {
-			echo "-regex on a string: A match was not found<br /><br />";
+			return $output;
 		}
 
 
-		$value = "sameemail@email.com";
+		echo is_equal(0, false);
+		echo is_equal(1, 1);
+		echo is_equal(4, true);
+		echo is_equal(0, "0");
+		echo is_equal(0, "a");
+		echo is_equal("abc", true);
+		echo is_equal(123, 0123);
+		echo is_equal(100, 100.00);
 
-		if (preg_match("/@/", $value)) {
-			echo "-regex on a string: A match was found<br /><br />";
-		} else {
-			echo "-regex on a string: A match was not found<br /><br />";
+
+		echo "<br/><br/>";
+		
+		//another custom made function but with 3 equal signs
+
+		function is_exact($value1, $value2) {
+			$output = "{$value1} === {$value2}: ";
+
+			if ($value1 === $value2) {
+				$output .= "true <br />";
+			} else {
+				$output .= "false <br />";
+			}
+
+			return $output;
 		}
+
+
+		echo is_exact(0, false);
+		echo is_exact(1, 1);
+		echo is_exact(4, true);
+		echo is_exact(0, "0");
+		echo is_exact(0, "a");
+		echo is_exact("abc", true);
+		echo is_exact(123, 0123);
+		echo is_exact(100, 100.00);
 
 
 
