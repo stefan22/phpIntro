@@ -83,16 +83,28 @@
 						- Populate fields with previous values
 					
 
+#Validation Values
+==================
 
+	- Imposing data requirements is called validating our data
 
+		##Common Validations:
 
+				- Presence				- simplest and most common requirement for a form field is that user submits some value
+										  and form field cannot be left blank. Presence of a value.	
 
+				- String length			- number of characters that they've submitted - longer than certain amount of characters or not shorter than
+				 						  a certain amount of characters	
 
+				- Type					- make sure user sent us a string or an integer or a float if that's what we're expecting
 
+				- Inclusion in a set	- included in a set from a select set of choices, so if we ask someone to choose from male or female, the anwer
+										  we would expect to get back would be either male or female
 
+				- Uniqueness			- whether something is unique or not (databases- ie: everyone needs to pick a unique username)
 
-
-
+				- Format				- making sure an email has the at symbol in it, currency has the pound or dollar sign, might need to
+										  end up with am and pm etc
 
 
 
