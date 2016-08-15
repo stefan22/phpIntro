@@ -130,7 +130,19 @@
 					- false
 					- array()
 
-	
+
+#Displaying Validation Errors
+=============================
+
+	- How to display validation errors back to the user
+
+			- best way to do that is to have $errors equal an array, and then we can put our errors
+			  in this array and let them accumulate
+			  		$errors = array();
+
+			 - once we're done running all our validations, we can decide what we want to do with it.
+
+
 
 
 
