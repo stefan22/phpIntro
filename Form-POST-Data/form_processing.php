@@ -25,7 +25,9 @@
 			echo "Username: {$username}<br />Password: {$password}";
 			
 
-		?>
+		?><br /><br /> <br/>
+
+		
 
 				<?php
 					if (isset($_POST["submit"])) {
