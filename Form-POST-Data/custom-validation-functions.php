@@ -39,6 +39,11 @@
 
 				return $output;
 		}
+
+
+		function redirect_to($page) {
+			return header("Location: {$page}");
+		}
 		
 	
 
