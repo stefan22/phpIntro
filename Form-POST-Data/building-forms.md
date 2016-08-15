@@ -143,7 +143,12 @@
 			 - once we're done running all our validations, we can decide what we want to do with it.
 
 
+#Custom Validation Functions
+============================
 
+	- Rather than using if statements, functions allow us to make our validations re-usable
+	- we can then develop a file, that is going to be a library of validation functions that we
+	  can just include and call upon whenever needed.
 
 
 
