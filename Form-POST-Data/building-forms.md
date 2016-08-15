@@ -108,6 +108,99 @@
 
 
 
+#Problems with Validation Logic
+===============================
+
+	- Type juggling during comparissons
+
+			- string vs null: converts null to ""
+			- boolean vs other: converts other to boolean
+			- number vs other: converts other to number
+
+
+
+	- empty() function 
+
+			- these are all considered to be empty:
+
+					- ""
+					- 0
+					- "0"
+					- null
+					- false
+					- array()
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
