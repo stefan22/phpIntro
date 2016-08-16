@@ -11,9 +11,16 @@
 		$password = trim($_POST["password"]);
 		$message = "";
 
-		if (!has_presence($username)) {
-			$errors["username"] = "Username can't be blank <br /><br />";
+
+		// Validations
+		$fields_required = array("username", "password");
+		foreach ($fields_required as $field) {
+			$value = trim($_POST[$field]);
+			if (!has_presence($field)) {
+			$errors["field"] = ucfirst($field) . " can't be blank";		}
 		}
+
+		
 
 		if (empty($errors)) {
 			if ($username == "kevin" && $password == "secret") {
