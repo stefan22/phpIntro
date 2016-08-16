@@ -78,4 +78,33 @@
 				?>	
 				</pre>
 
-	
+
+				$name = "test";
+				$value = 150;
+				$expire = time() + (60*60*24*7);		// 1 week    (60*60*24*7*2) be two weeks	 
+
+				setcookie($name, $value, $expire);
+
+
+#Unsetting Cookie Values
+========================
+
+		- How do you get rid of cookies when you're done?
+			ex:
+				when someone logs in, you wanna record their userId, but when they log out you wanna get rid of it.
+
+
+			WRONG WAY:
+
+				- unset($_COOKIE["user_id"]);	
+
+				- you wouldn't want to do that cause those are the values that came from the last request
+
+
+			RIGHT WAY:
+
+				- setcookie($name);     //with no value will set it to nothing - empty it out.
+
+				- setcookie($name, null);  //better this way and will set it equal to nothing
+
+				- setcookie($name, $value, (time() -3600));   //another way by setting expiration day to a time in the past

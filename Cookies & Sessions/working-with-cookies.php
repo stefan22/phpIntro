@@ -7,8 +7,13 @@
 	$value = 150;
 	$expire = time() + (60*60*24*7);		// 1 week    (60*60*24*7*2) be two weeks	 
 
-	setcookie($name, $value, $expire);
+	//setcookie($name, $value, $expire);
 
+	setcookie($name, null, (time() - 3600));
+
+	setcookie($test, null, (time() - 3600));
+
+	
 
 ?>
 
