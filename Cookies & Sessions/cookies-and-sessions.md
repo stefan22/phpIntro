@@ -108,3 +108,36 @@
 				- setcookie($name, null);  //better this way and will set it equal to nothing
 
 				- setcookie($name, $value, (time() -3600));   //another way by setting expiration day to a time in the past
+
+
+#Working with Sessions
+======================
+
+		- A session is a file that's stored on the web server / not on the browser side, it's on the web server's
+		  file system. And you can store a lot more information in this file that u can on a cookie.
+		  So when we want to save some information the process is, instead of sending it as	a cookie to the user,
+		  we put it in the session file. And then, we still send the cookie to the user, but what we send them is a
+		  reference to that session file.
+		  Then with every request made to the server, we're able to look up that session file, and pull all the data
+		  out of it.
+		- Sort of a fourth way to get data from URLs
+		- Sessions are related to cookies - stored server-side and not client-side.
+
+			ex:		Cookies			COOKIE
+									SESSION
+
+		- they rely on cookies to do their work
+
+
+		- Pros
+				- more storage
+				- smaller request sizes
+				- conceals data values
+				- more secure
+
+		- Cons
+				- slower to access
+				- expire when browser is closed
+
+
+		- PHP stores sessions on another superglobal called $_SESSION
