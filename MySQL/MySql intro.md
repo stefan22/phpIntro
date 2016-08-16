@@ -31,3 +31,24 @@
 		- Example: first_name: "Kevin"
 
 
+	- Index
+	  =====
+	  	- Data structure on a table to increase look up speed
+	  	- Like the index at the back of a book
+
+	- Foreign key
+	  ===========
+	  	- Table column whose values reference rows in another table
+	  	- The foundation of relational databases
+
+
+	- CRUD
+	  ====
+	  	- Acronym that stands for the four most basic operations that we do with databases
+
+	  			- Create 	=> create new rows in our database tables
+	  			- Read 		=> read back data
+	  			- Update	=> update data
+	  			- Delete	=> delete data
+
+
