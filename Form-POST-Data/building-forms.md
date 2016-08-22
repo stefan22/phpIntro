@@ -137,6 +137,128 @@
 		
 		
 
+#Validation Values
+==================
+
+	- Imposing data requirements is called validating our data
+
+		##Common Validations:
+
+				- Presence				- simplest and most common requirement for a form field is that user submits some value
+										  and form field cannot be left blank. Presence of a value.	
+
+				- String length			- number of characters that they've submitted - longer than certain amount of characters or not shorter than
+				 						  a certain amount of characters	
+
+				- Type					- make sure user sent us a string or an integer or a float if that's what we're expecting
+
+				- Inclusion in a set	- included in a set from a select set of choices, so if we ask someone to choose from male or female, the anwer
+										  we would expect to get back would be either male or female
+
+				- Uniqueness			- whether something is unique or not (databases- ie: everyone needs to pick a unique username)
+
+				- Format				- making sure an email has the at symbol in it, currency has the pound or dollar sign, might need to
+										  end up with am and pm etc
+
+
+
+#Problems with Validation Logic
+===============================
+
+	- Type juggling during comparissons
+
+			- string vs null: converts null to ""
+			- boolean vs other: converts other to boolean
+			- number vs other: converts other to number
+
+
+
+	- empty() function 
+
+			- these are all considered to be empty:
+
+					- ""
+					- 0
+					- "0"
+					- null
+					- false
+					- array()
+
+
+#Displaying Validation Errors
+=============================
+
+	- How to display validation errors back to the user
+
+			- best way to do that is to have $errors equal an array, and then we can put our errors
+			  in this array and let them accumulate
+			  		$errors = array();
+
+			 - once we're done running all our validations, we can decide what we want to do with it.
+
+
+#Custom Validation Functions
+============================
+
+	- Rather than using if statements, functions allow us to make our validations re-usable
+	- we can then develop a file, that is going to be a library of validation functions that we
+	  can just include and call upon whenever needed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

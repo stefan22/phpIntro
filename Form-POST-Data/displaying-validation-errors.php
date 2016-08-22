@@ -1,88 +1,25 @@
-<<<<<<< HEAD
-<?php
-	if(isset($_POST["submit"])) {
-		$username = $_POST["username"];
-		$password = $_POST["password"];
-		echo "Username: {$username}<br />Password: {$password}<br /><br />";
-	} else {
-		$username = "";
-		$password = "";
-	}
-	
-?>
-
-=======
->>>>>>> a4003aad85dcbcfb794aa3d613618ea3efe4c4f7
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
    "http://www.w3.org/TR/html4/loose.dtd">
 
 <html lang="en">
 	<head>
-<<<<<<< HEAD
-		<title>Validations</title>
-	</head>
-	<body>
-
-		<?php
-
-			// * presence
-			$value = "x";
-			if (!isset($value) || empty($value)) {
-				echo "1. presence Validation failed. <br /><br />";
-			} else {
-				echo "1. passed presence validation<br/><br />";
-			}
-
-			// * string length
-			$value = "house";
-			$min = 3;
-			if(strlen($value) < $min) {
-				echo "2. min length validation failed<br /><br />";
-			} else {
-				echo "2. passed min length validation<br /><br />";
-			}
-
-			$value = "house";
-			$max = 7;
-			if (strlen($value) > $max) {
-				echo "3. max length validation failed<br /><br />";
-			} else {
-				echo "3. passed max length validation<br /><br />";
-			}
-
-			// * type
-			$value = "";
-			if (!is_string($value)) {
-				echo "4. failed string type validation<br />";
-			} else {
-				echo "4. passed string type validation<br />";
-			}
-
-
-			// * inclusion in a set
-			// * uniqueness
-			// * format
-	
-		?>	
-
-
-
-
-
-
-		<form name="myform" action="validations.php" method="post">
-=======
 		<title>validations</title>
 	</head>
 	<body>
-		<h3><u>Validations</u></h3>
+		<h3><u>Validations Errors</u></h3>
 		
 		<?php
 
-		//presence
-		$value = "x";
-		if (!isset($value) || empty($value)) {
-			echo "-presence validation failed<br /><br />";
+		$errors = array();
+
+		//*presence
+		// use trim() so empty spaces don't count
+		// use === to avoid false positives
+		// empty() would consider "0" to be empty
+
+		$value = trim("");
+		if (!isset($value) || $value === "") {
+			$errors['value'] = "-Value can't be blank";
 		} else {
 			echo "-passed presence validation<br /><br />";
 		}
@@ -149,14 +86,55 @@
 
 
 
+		//print_r($errors);
 
 
 		?>
 
+
+		<?php
+
+			// if (!empty($errors)) {
+			// //redirect_to("first_page.php");
+			//   include("form.php");
+			// } else {
+			// 	include("success.php");
+			// }
+
+			//on a single page
+
+			function form_errors($errors=array()) {
+					$output = "";
+					if (!empty($errors)) {
+						$output .= "<div class=\"error\">";
+						$output .= "Please fix the following errors";
+						$output .= "<ul>";
+						foreach ($errors as $key => $error) {
+							$output .= "<li>{$error}</li>";
+						}
+						$output .= "</ul>";
+						$output .= "</div>";
+					}
+
+					return $output;
+			}
+
+			
+		?>
+
+		<br /><br />
+		<!-- call it -->
+
+		<?php echo form_errors($errors); ?>
+
+
+
+
+
+
 		<br /><br /> <br/>
 	
 		<form name="myform" action="form_processing.php" method="post">
->>>>>>> a4003aad85dcbcfb794aa3d613618ea3efe4c4f7
 			
 				Username: <input type="text" name="username" value="" /><br /><br />
 				Password: <input type="password" name="password" value="" /><br /><br />

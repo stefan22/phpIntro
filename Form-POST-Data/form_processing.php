@@ -7,7 +7,7 @@
 	</head>
 	<body>
 	
-		<h1>Hey you are on form processing php.....</h1>
+		<h1>Hey you are in form processing php.....</h1>
 		<h3>...we're busy right now :(</h3>
 
 		<pre>
@@ -25,7 +25,9 @@
 			echo "Username: {$username}<br />Password: {$password}";
 			
 
-		?>
+		?><br /><br /> <br/>
+
+		
 
 				<?php
 					if (isset($_POST["submit"])) {
