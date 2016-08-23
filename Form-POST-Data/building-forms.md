@@ -81,7 +81,61 @@
 					- Redisplay the form on errors
 						- Return error messages
 						- Populate fields with previous values
-					
+
+
+#Validating Form Values
+=======================
+
+	- When we accept data from users especially from web forms(submit), we don't wanna accept just any
+	  data, in fact as developers is our job to assume users are sending us the worst data possible or
+	  even trying to hack our site so
+	  Checking the submitted data carefully is the way to having secure and robust code
+
+	- So we need to spend some time thinking about requirements for our data and learning how to
+	  enforce those requirements
+
+	- Imposing data requirements is called "validating our data"
+
+	##Common Validations
+	====================
+
+		- Presence => making sure some data have been sent
+		- String length => a certain number of characters
+		- Type => make sure is string, integer or a float
+		- Inclusion in a set => that it's included in a set from a select set of choices
+			ex. if we ask for male or female, expecting the answer to be either or
+		- Uniqueness => checks whether something is unique or not (databases)
+		- Format => checking for a $ when currency, email @ symbol, dates and times
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
 
 #Validation Values
 ==================
