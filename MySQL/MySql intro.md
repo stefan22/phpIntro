@@ -143,20 +143,75 @@
 		##SQL INSERT (create)
 		=====================
 
-				INSERT INTO table (column1, column2, column3)
+				INSERT INTO table (column1, column2, column3)                        //leave the idea out and let have mysql handle it
 				VALUES (val2,val2,val3);
+
+					insert into subjects (menu_name, position, visible)
+					values ('about page', 1 , 1);
 
 
 		##SQL UPDATE (update)
 		=====================
 
-				UPDATE table
-				SET column1 = "some_text"
-				WHERE id = 1;		
+				UPDATE table                                     //update subjects
+				SET column1 = "some_text"						 //set visible = 1					
+				WHERE id = 1;		                             // where id = 4;
 
 
 		##SQL DELETE (delete)
 		=====================
 
-				DELETE FROM table
-				WHERE id = 1;
+				DELETE FROM table  					// delete from subjects
+				WHERE id = 1;                       // where id = 4;
+
+
+
+		##Read from database
+		====================
+
+				select * from subjects where visible = 1; 	                                         
+				select * from subjects where visible =1 order by menu_name ASC
+
+
+
+# Relational database tables
+============================
+	
+		## One-to-Many relationship
+
+			ie: subject -> pages   //a sujects has many pages and that each page belongs to the subject
+
+				we do this using a foreign key
+
+					
+					table: subjects
+				-------------------------											
+				|	id		|	1		|
+				|___________|___________|
+				|	menu    |           |
+				|	name	|	BHS		|
+				|___________|___________|			
+				|	posit   |           |
+				|	ion		|	2		|
+				|___________|___________|
+				|			|			|
+				|	visible	|	1		|
+				-------------------------
+
+					table:pages
+				-------------------------											
+				|	id		|	1		|
+				|___________|___________|
+				|	menu    |           |
+				|	name	|	BHS		|
+				|___________|___________|			
+				|	posit   |           |
+				|	ion		|	2		|
+				|___________|___________|
+				|			|			|
+				|	visible	|	1		|
+				|-----------------------|
+				|           |  "this    |
+				|  content  |   page    |
+				|           |   text"   |
+				|___________|___________|
