@@ -72,9 +72,9 @@
                     - mysqli_connect_error()
                     - mysqli_close()
 
-                    <pre>
+                    
 
-                    <?php
+                   ```` <?php
                          //1. Create database connection
                          $dbhost = "localhost";
                          $dbuser = "widget_cms";
@@ -99,7 +99,7 @@
                     ?>
 
 
-                    </pre>
+                    `````
 
 
 
