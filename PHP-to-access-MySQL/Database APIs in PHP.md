@@ -19,7 +19,8 @@
                - PHP Data Objects 
                - Only Object Oriented
                - version 5.1
-               - object oriented interface (has to do with creating classes and placing functions inside of them)
+               - object oriented interface (has to do with creating classes and placing functions 
+                 inside of them)
                - supports other databases - you can use Postgres
                - Configured in PHP.ini
                - prepared statements
@@ -41,7 +42,8 @@
                     mysqli_close
 
 
-          ### objet-oriented (here we're creating a new object and all of the functions that we call are inside of the object)
+          ### objet-oriented (here we're creating a new object and all of the functions that 
+              we call are inside of the object)
 
                     $mysqli  =  new mysqli 
                     $mysqli  -> connect_errno
