@@ -90,13 +90,13 @@
                               );
                          }
                          // connection closed at the bottom of this page
-                    ?>
+                  ?>
 
-                    // at end of page or anywhere
-                    <?php
+                  // at end of page or anywhere
+                  <?php
                          // 5 close database connection
                          mysqli_close($connection);
-                    ?>
+                  ?>
 
 
 ```
