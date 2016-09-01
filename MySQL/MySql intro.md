@@ -239,4 +239,5 @@
 		mysql> INSERT INTO page (subject_id, menu_name, position, visible, content)
 		       VALUES (1, 'Our Mission',1, 1, 'Our mission has always been ...');
 
-		     	
+		mysql> INSERT INTO page (subject_id, menu_name, position, visible, content)
+		       VALUES (1, 'Our History',2, 1, 'founded in 1589 by two random people ...');    	
