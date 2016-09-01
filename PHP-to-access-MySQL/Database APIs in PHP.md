@@ -81,7 +81,8 @@
                          $dbpass = "stefano";
                          $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-                         // test if connection occurred. better to use errno cause connect_error returns an 
+                         // test if connection occurred. better to use errno cause connect_error 
+                            returns an 
                             empty string if no problem
                          if (mysqli_connect_errno())  {
                               die("Database connection failed: " .
@@ -103,17 +104,17 @@
 
 ## Retrieving data from MySQL   (MySQL  API functions)
 
-          mysqli_query()                                    // to do our querying
-          mysqli_fetch_row()                             // for when we get results back    
-          mysqli_free_result()                            // to tell MySQL to free the result at the end  - flush mem
+          mysqli_query()                               // to do our querying
+          mysqli_fetch_row()                           // for when we get results back    
+          mysqli_free_result()                         // to tell MySQL to free the result at the end  - flush mem
 
           needless to say -> u must do this within ur html   
 
 ```            
              <?php
                          // 3. use returned data (if any)
-                         while ($row = mysqli_fetch_row($result) {       // grabs first row and then 
-                              // output data from each row                    // continues on until able to grab rows   
+                         while ($row = mysqli_fetch_row($result) {     // grabs first row and then 
+                              // output data from each row             // continues on until able to grab rows   
                               var_dump($row);
                               echo "<hr />";
                          }
