@@ -181,7 +181,8 @@
 
 			ie: subject -> pages   //a sujects has many pages and that each page belongs to the subject
 
-				we do this using a foreign key
+				we do this using a foreign key => to add a column to one of them where values will reference
+				rows in the other table (on the many side)
 
 					
 					table: subjects
@@ -201,7 +202,11 @@
 					table:pages
 				-------------------------											
 				|	id		|	1		|
+				|___________|___________|											
+				|	subject |           |
+				|     id	|	1		|
 				|___________|___________|
+				|	menu    |           |
 				|	menu    |           |
 				|	name	|	BHS		|
 				|___________|___________|			
@@ -215,3 +220,23 @@
 				|  content  |   page    |
 				|           |   text"   |
 				|___________|___________|
+
+
+
+		mysql> CREATE TABLE page (
+
+			->  id INT(11) NOT NULL AUTO_INCREMENT,
+			->  subject_id INT(11) NOT NULL,
+			->  menu_name VARCHAR(30) NOT NULL,
+			->  position INT(3) NOT NULL,
+			->  visible TYNYINT(1) NOT NULL,
+			->  content TEXT,
+			->  PRIMARY KEY (id),
+			->  INDEX (subject_id)
+			-> );
+
+
+		mysql> INSERT INTO page (subject_id, menu_name, position, visible, content)
+		       VALUES (1, 'Our Mission',1, 1, 'Our mission has always been ...');
+
+		     	
