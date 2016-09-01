@@ -55,6 +55,57 @@
           #### http://php.net/manual/en/mysqlinfo.api.choosing.php
 
 
+# PHP database interaction :
+
+     1. Create database connection - should only happen once per php script
+     2. perform database query - add, delete update
+     3. return data - if we do a select
+     4. release returned data - free up mem that was used to hold query
+     5. close database connection - should only happen once per php script
+
+##        Create n Close Connection
+
+                    - mysqli_connect()
+                    - mysqli_connect_errno()
+                    - mysqli_connect_error()
+                    - mysqli_close()
+
+                    <pre><code>
+
+                    <?php
+                         //1. Create database connection
+                         $dbhost = "localhost";
+                         $dbuser = "widget_cms";
+                         $dbpass = "stefano";
+                         $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+                         // test if connection occurred. better to use errno cause connect_error returns an empty string if no problem
+                         if (mysqli_connect_errno())  {
+                              die("Database connection failed: " .
+                                   mysqli_connect_error() .
+                                   " (" . mysqli_connect_errno() .  ")"
+                              );
+                         }
+                         // connection closed at the bottom of this page
+                    ?>
+
+                    // at end of page or anywhere
+                    <?php
+                         // 5 close database connection
+                         mysqli_close($connection);
+                    ?>
+
+
+                    </code></pre>
+
+
+
+
+
+
+
+
+
 
 
 
