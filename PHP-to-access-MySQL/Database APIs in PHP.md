@@ -72,7 +72,7 @@
                     - mysqli_connect_error()
                     - mysqli_close()
 
-                    <pre><code>
+                    <pre>
 
                     <?php
                          //1. Create database connection
@@ -81,7 +81,8 @@
                          $dbpass = "stefano";
                          $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-                         // test if connection occurred. better to use errno cause connect_error returns an empty string if no problem
+                         // test if connection occurred. better to use errno cause connect_error returns an 
+                            empty string if no problem
                          if (mysqli_connect_errno())  {
                               die("Database connection failed: " .
                                    mysqli_connect_error() .
@@ -98,7 +99,7 @@
                     ?>
 
 
-                    </code></pre>
+                    </pre>
 
 
 
