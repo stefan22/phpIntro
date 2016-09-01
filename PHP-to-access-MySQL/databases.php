@@ -14,6 +14,21 @@
      }
      // connection closed at the bottom of this page
 ?>
+
+<?php
+          // 2. perform database query
+
+     $query = "SELECT  *  FROM  subjects";
+     $result = mysqli_query( $connection, $query);
+     // test if there was a query error - if it returns empty you won't get an error
+     if (!$result) {
+          die("Database query failed");
+     }
+
+
+?>
+
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
      "http://www.w3.org/TR/html4/loose.dtd">
 
@@ -23,6 +38,15 @@
      </head>
      <body>
 
+             <?php
+                         // 3. use returned data (if any)
+                         while ($row = mysqli_fetch_row($result) {       // grabs first row and then 
+                              // output data from each row                    // continues on until able to grab rows   
+                              var_dump($row);
+                              echo "<hr />";
+                         }
+
+             ?>  
 
      </body>
 </html>
