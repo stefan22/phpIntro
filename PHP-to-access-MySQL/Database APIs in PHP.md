@@ -73,7 +73,7 @@
                     - mysqli_close()
 
                     
-               ```
+```
                   <?php
                          //1. Create database connection
                          $dbhost = "localhost";
@@ -99,7 +99,7 @@
                     ?>
 
 
-                    ```
+```
 
 
 
