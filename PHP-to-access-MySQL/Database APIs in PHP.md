@@ -29,9 +29,9 @@
      - PHP 5.5v MySQL is going to be deprecated not sure - i got 5.5 on my mac
 
 
-## Procedural and Objected Oriented (basically functions we call to do things witht it)
+##                  Procedural and Objected Oriented (basically functions we call to do things witht it)
 
-          ### procedural                                               
+###                 procedural                                               
 
                     mysqli_connect
                     mysqli_connect_errno
@@ -42,8 +42,8 @@
                     mysqli_close
 
 
-          ### objet-oriented (here we're creating a new object and all of the functions that 
-              we call are inside of the object)
+###                 objet-oriented (here we're creating a new object and all of the functions that 
+                    we call are inside of the object)
 
                     $mysqli  =  new mysqli 
                     $mysqli  -> connect_errno
@@ -54,7 +54,7 @@
                     $mysqli  -> close
 
 
-          #### http://php.net/manual/en/mysqlinfo.api.choosing.php
+####                http://php.net/manual/en/mysqlinfo.api.choosing.php
 
 
 
