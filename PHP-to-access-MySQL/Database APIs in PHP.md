@@ -74,7 +74,7 @@
 
                     
 
-                   ```` <?php
+                   ``` <?php
                          //1. Create database connection
                          $dbhost = "localhost";
                          $dbuser = "widget_cms";
@@ -99,7 +99,7 @@
                     ?>
 
 
-                    `````
+                    ````
 
 
 
