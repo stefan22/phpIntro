@@ -1,4 +1,4 @@
 # PHP Intro notes
 ```
 
- [PHP Intro](/phpintro.md)
+ [PHP Intro](href="https://github.com/stefan22/phpIntro/blob/master/phpintro.md")
