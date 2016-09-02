@@ -8,4 +8,4 @@ phpinfo();
 ?>
 
 
-[back](https://github.com/stefan22/phpIntro)
+# PHP INTRO | [back](https://github.com/stefan22/phpIntro)
