@@ -1,19 +1,19 @@
 # PHP INTRO
 
 
-  <?php
+    <?php
 
 >//Show all information, defaults, to INFO_ALL
 
-  phpinfo(); 
+    phpinfo(); 
 
 
 
-  ?>
+    ?>
 
 
 <br />
 <br />
 
 
-* [Back](https://github.com/stefan22/phpIntro)
+*   [Back](https://github.com/stefan22/phpIntro)
