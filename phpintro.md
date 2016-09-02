@@ -1,4 +1,4 @@
-# PHP INTRO | [back](https://github.com/stefan22/phpIntro)
+# PHP INTRO
 
 ## What is PHP
 
@@ -102,7 +102,7 @@
 
 
 
-
+[back](https://github.com/stefan22/phpIntro)
 
 
 
