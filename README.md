@@ -1,4 +1,4 @@
-# PHP Intro notes
+# PHP w/ MySQL
  
  - [phpIntro.md](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
  - [phpInfo.php.md](https://github.com/stefan22/phpIntro/blob/master/phpinfo.php.md)
