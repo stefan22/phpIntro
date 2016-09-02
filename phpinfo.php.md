@@ -1,15 +1,15 @@
 # PHP INTRO
 
->
-<?php
 
-//Show all information, defaults, to INFO_ALL
+  <?php
 
-phpinfo(); 
+> //Show all information, defaults, to INFO_ALL
+
+  phpinfo(); 
 
 
 
-?>
+  ?>
 
 
 <br />
