@@ -1,13 +1,13 @@
 # PHP Intro notes
  
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpinfo.php)
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md) 
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
- - [PHP Intro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+ - [phpIntro](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+ - [phpInfo.php](https://github.com/stefan22/phpIntro/blob/master/phpinfo.php)
+ - [](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+ - [](https://github.com/stefan22/phpIntro/blob/master/phpintro.md) 
+ - [](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+ - [](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+ - [](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+ - [](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+ - [](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+ - [](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
 
