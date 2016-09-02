@@ -3,7 +3,7 @@
 
   <?php
 
-> //Show all information, defaults, to INFO_ALL
+>//Show all information, defaults, to INFO_ALL
 
   phpinfo(); 
 
