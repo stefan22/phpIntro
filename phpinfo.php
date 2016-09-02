@@ -10,4 +10,4 @@ phpinfo();
 ?>
 
 
-# PHP INTRO | [back](https://github.com/stefan22/phpIntro)
+* [Back](https://github.com/stefan22/phpIntro)
