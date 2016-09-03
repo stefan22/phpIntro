@@ -23,6 +23,6 @@
 
 
 
->
+<br /><hr />
 
 *   [top](https://github.com/stefan22/phpIntro)
