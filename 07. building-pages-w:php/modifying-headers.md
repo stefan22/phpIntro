@@ -21,7 +21,7 @@
 
 				ex
 					header("Content-type:application/pdf");			//makes the server tell the browser that this is a pdf you're sending
-																	//you should treat it like pdf when it arrives
+																	//yes
 
 					header("Content-Disposition: attachment;		//tell it it's going to be an attachment and suggest a file name
 							filename='xyz.pdf");
@@ -30,4 +30,8 @@
 
 
 		###  we'll need to work with headers typically when we want to do page redirection - other than that nope
+
+
+
+*   [Back](https://github.com/stefan22/phpIntro)
 					

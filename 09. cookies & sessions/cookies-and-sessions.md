@@ -141,3 +141,7 @@
 
 
 		- PHP stores sessions on another superglobal called $_SESSION
+
+
+
+*   [Back](https://github.com/stefan22/phpIntro)

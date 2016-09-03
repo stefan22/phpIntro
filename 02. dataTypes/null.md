@@ -28,3 +28,7 @@
 			var2 is empty?   <?php echo empty($var2); ?> <br/><br />		//returns 1 for empty
 
 			var3 is empty?   <?php echo empty($var3); ?> <br/><br />		//returns 1 for empty
+
+
+
+*   [Back](https://github.com/stefan22/phpIntro)

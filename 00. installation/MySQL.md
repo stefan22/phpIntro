@@ -21,3 +21,8 @@
 					  of a command execution
 					- apachectl start replaced with apacheRestart and many others 
 					  (see .bash_profile)
+
+
+
+
+*   [Back](https://github.com/stefan22/phpIntro)

@@ -39,5 +39,5 @@
 				- <?php $mixed[] = "mouse"; ?>   //add string "mouse" at the end of array
 
 
-
+*   [Back](https://github.com/stefan22/phpIntro)
 

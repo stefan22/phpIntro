@@ -47,11 +47,9 @@
                                          followed by a pair of haxadecimal digits
 
 					-PHP lets us encode by using:
-													urlencode($string);
+					urlencode($string);
 
-														-Letters,numbers,underscore and dash are unchanged
-														-Reserved characters become % + 2-digit hexidecimal
-														-Spaces become "+"
+			mbers,underscore and dash are unchanged														-Spaces become "+"
 
 
 
@@ -59,8 +57,7 @@
 
 													rawurlencode($string);
 
-														-Letters,numbers,underscore and dash are unchanged
-														-Reserved characters become % + 2-digit hexidecimal
+														-Letters,necimal
 														-Spaces become "%20"
 
 
@@ -135,7 +132,7 @@
 
 
 
-
+*   [Back](https://github.com/stefan22/phpIntro)
 
 
 

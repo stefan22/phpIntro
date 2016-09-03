@@ -19,9 +19,7 @@
 				Random:			<?php echo rand(); ?> <br />		//returns a random number
 
 				Random(min,max)	<?php echo rand(1,10); ?> <br />	//returns a random number within
-																	//that range
-
-
+																ge
 
 		### adding a value to a variable /JS like
 
@@ -45,7 +43,7 @@
 
 
 
-
+*   [Back](https://github.com/stefan22/phpIntro)
 
 
 

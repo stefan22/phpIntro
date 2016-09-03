@@ -30,12 +30,17 @@
 	### in_array		// find if something is in an array
 
 		15 in array?: <?php echo in_array(15, $numbers); ?>		// it returns true or false
-																// true is represented by 1 and
+									
+
 		15 in array?: <?php echo in_array(1, $numbers); ?>		// false by nothing
 
 
 	- Many more array functions at
 		http://php.net/manual/en/ref.array.php
+
+
+
+*   [Back](https://github.com/stefan22/phpIntro)
 
 
 		

@@ -14,5 +14,5 @@
 		- result2 is boolean?		<?php echo is_bool($result2);
 
 	
-
+*   [Back](https://github.com/stefan22/phpIntro)
 	

@@ -62,3 +62,6 @@
 		  -http://xdebug.org
 		  -FirePHP (http://www.firephp.org) uses firebug  for firefox	
 
+
+
+*   [Back](https://github.com/stefan22/phpIntro)

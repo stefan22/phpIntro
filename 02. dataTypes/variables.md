@@ -108,32 +108,28 @@
 				Trim: <?php echo "A" . trim(" B C D") . "E"; ?> <br/>		//AB C DE
 
 				Find: <?php echo strstr($third, "brown"); ?> <br/>		//finds brown and returns every
-																	    //thing after it
+																	   t
 
 				Replace by string: <?php echo str_replace("quick", "super-fast", $third); ?> <br/>
 
 				<br/>													//finds quick and replaces it with
-																	   // super-fast in the $third 
-																	  // sentence
+																	   e 
 
 
+				### str_repeat, substr, strpos, strchr functions
 
+							<br/>
 
-	### str_repeat, substr, strpos, strchr functions
+							Repeat:<?php echo str_repeat($third, 2); ?> <br>   //repeats $third twice
 
-				<br/>
-
-				Repeat:<?php echo str_repeat($third, 2); ?> <br>   //repeats $third twice
-
-				Make substring:<?php echo substr($third,5,10); ?> <br>  //makes a new string from
-																		//position 5 to 10
+							Make substring:<?php echo substr($third,5,10); ?> <br>  //makes a new string from
+																					//p0
 
 				Find position: <?php echo strpos($third,"brown"); ?> <br> //starting position of brown
-																		  //in sentence
+																		  /e
 
 				Find character: <?php echo strchr($third,"z");	?> <br>	 // it gives you everything
-																		//from where it finds z	
-
+																		/
 
 				<br>															  
 
@@ -143,7 +139,7 @@
 
 
 
-
+*   [Back](https://github.com/stefan22/phpIntro)
 
 
 

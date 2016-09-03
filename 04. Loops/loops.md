@@ -92,3 +92,7 @@
 			next($ages);
 			echo "now pointing at: " . current($ages) . "<br/>";
 
+
+
+*   [Back](https://github.com/stefan22/phpIntro)
+
