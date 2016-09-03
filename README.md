@@ -26,12 +26,10 @@
 
 [11. php-to-access-mysql](11. php-to-access-mysql)
 
-```
 [sandbox](sandbox)
-#ff0000
-```
+
 
 
 <br /><hr />
 
-* [__Top__](https://github.com/stefan22/phpIntro)
+-[__Top__](https://github.com/stefan22/phpIntro)
