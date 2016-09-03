@@ -16,7 +16,7 @@
 
 [06. debugging](06. debugging)
 
-[07. building-pages-with-php](07. building-pages-with-php)
+[07. building-pages-with-php](https://github.com/stefan22/phpIntro/tree/master/07.%20building-pages-w:php)
 
 [08. form-POST-data](08. form-POST-data)
 
