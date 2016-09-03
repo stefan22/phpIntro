@@ -30,4 +30,4 @@
 
 <br /><hr />
 
-* [Top](https://github.com/stefan22/phpIntro)
+[<u>Top</u>](https://github.com/stefan22/phpIntro)
