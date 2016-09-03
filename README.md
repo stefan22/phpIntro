@@ -1,6 +1,6 @@
 # PHP w/ MySQL
 
-![php w/mysql](sandbox/phpwmysql.png "php w/mysql")
+![php w/mysql](sandbox/phpwmysql.png "php w/mysql" border="10" margin-left="5")
  
 [00. installation](00. installation)
 
