@@ -32,4 +32,4 @@
 
 <br /><hr />
 
--[__Top__](https://github.com/stefan22/phpIntro)
+[__Top__](https://github.com/stefan22/phpIntro)
