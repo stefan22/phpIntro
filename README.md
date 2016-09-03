@@ -1,5 +1,6 @@
 # PHP w/ MySQL
  
+
  - [00. installation](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
  - [01. firstSteps](https://github.com/stefan22/phpIntro/blob/master/phpinfo.php.md)
  - [02. dataTypes ](https://github.com/stefan22/phpIntro/blob/master/mySql.md)
@@ -16,9 +17,6 @@
  
 
 
+<br /><hr />
 
-
-
-
-
-*   [top](https://github.com/stefan22/phpIntro)
+*   [Top](https://github.com/stefan22/phpIntro)
