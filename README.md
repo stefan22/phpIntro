@@ -1,6 +1,6 @@
 # PHP w/ MySQL
  
-[00. installation](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+[00. installation](00. installation)
 
 [01. firstSteps](https://github.com/stefan22/phpIntro/blob/master/phpinfo.php.md)
 
