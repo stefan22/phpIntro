@@ -25,4 +25,4 @@
 
 <br /><hr />
 
-*   [top](https://github.com/stefan22/phpIntro)
+*   [Top](https://github.com/stefan22/phpIntro)
