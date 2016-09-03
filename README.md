@@ -10,7 +10,7 @@
 
 [03. logical Expressions](https://github.com/stefan22/phpIntro/tree/master/03.%20Logical%20Expressions) 
 
-[04. loops](04. loops)
+[04. loops](https://github.com/stefan22/phpIntro/tree/master/04.%20Loops)
 
 [05. functions](05. functions)
 
