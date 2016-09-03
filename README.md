@@ -1,6 +1,6 @@
 # PHP w/ MySQL
  
- - 1. [phpIntro.md](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
+ - 1.[installation](https://github.com/stefan22/phpIntro/blob/master/phpintro.md)
  - [phpInfo.php.md](https://github.com/stefan22/phpIntro/blob/master/phpinfo.php.md)
  - [mysql.md](https://github.com/stefan22/phpIntro/blob/master/mySql.md)
  - [index.html.md](https://github.com/stefan22/phpIntro/blob/master/index.html.md) 
