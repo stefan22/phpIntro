@@ -16,8 +16,7 @@
 
 [06. debugging](06. debugging)
 
-
-[07. building-pages-w:php](07. building-pages-w:php)
+[07. building-pages-with-php](07. building-pages-w:php)
 
 [08. form-POST-data](08. form-POST-data)
 
@@ -27,10 +26,10 @@
 
 [11. php-to-access-mysql](11. php-to-access-mysql)
 
-[sandbox](sandbox)
+* [sandbox](sandbox)
 
 
 
 <br /><hr />
 
-[__Top__](https://github.com/stefan22/phpIntro)
+* [__Top__](https://github.com/stefan22/phpIntro)
