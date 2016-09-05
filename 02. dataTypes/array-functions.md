@@ -22,19 +22,19 @@
 ```
  	<?php rsort($numbers); print_r($numbers); ?><br/><br/>	//descending order
 ```
-### implode 	// turns an array into a string
+### implode 	(turns an array into a string)
 
 - Implode:
 ```
 	<?php $num_string = implode(" * ", $numbers); ?>  <br/><br/>
 ```
-### explode		// is the opposite of implode
+### explode		(is the opposite of implode)
 	
 - Explode:
 ```
 	<?php print_r(explode(" * ", $num_string)); ?>  <br/><br/>
 ```
-### in_array		// find if something is in an array
+### in_array		 (find if something is in an array)
 
 - 15 in array?: 
 ```
