@@ -2,8 +2,8 @@
 
 ###	Installation on MacOS using packages
 	
-		-php.net > Documentation > Installation on MacOs > Using Packages > Liip > Copy/Paste code to terminal
-		- restart apache // apachectl restart
+		- php.net > Documentation > Installation on MacOs > Using Packages > Liip > Copy/Paste code to terminal
+		- restart apache  // apachectl restart
 
 
 ### 	Configuring PHP
