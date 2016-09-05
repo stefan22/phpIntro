@@ -25,20 +25,20 @@ ex.
 - It returns true or false => but gets converted into a number 
 	* 1 for true
 	* nothing/no value for false
-	
-		-ex
-			<?php $integer = 3; ?>
-			<?php $float = 3.14; ?>
 
-			<?php echo "Is {$integer} integer? " .  is_int($integer); ?> <br/><br/>
+```	
+ex
+	<?php $integer = 3; ?>
+	<?php $float = 3.14; ?>
 
-			<?php echo "Is {$float} integer? "  .  is_int($float); ?> <br/><br/>
+	<?php echo "Is {$integer} integer? " .  is_int($integer); ?> <br/><br/>
+
+	<?php echo "Is {$float} integer? "  .  is_int($float); ?> <br/><br/>
+
+	<?php echo "Is {$integer} float? " .  is_float($integer); ?> <br/><br/>
+
+	<?php echo "Is {$float} float? "  .  is_float($float); ?> <br/><br/>
+```
 
 
-			<?php echo "Is {$integer} float? " .  is_float($integer); ?> <br/><br/>
-
-			<?php echo "Is {$float} float? "  .  is_float($float); ?> <br/><br/>
-
-
-
-*   [Back](https://github.com/stefan22/phpIntro)
+[Back](https://github.com/stefan22/phpIntro)
