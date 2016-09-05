@@ -26,8 +26,9 @@ ex.
 	var3 is set?   <?php echo isset($var3); ?> <br/><br />		
 ```
 
-### empty //in php empty means: "", null, 0, 0.0, "0", false, array()
+### empty (in php empty means: "", null, 0, 0.0, "0", false, array())
 
+```
 	<?php $var3 = "0";
 
 	//returns 1 for empty
@@ -38,7 +39,7 @@ ex.
 	
 	//returns 1 for empty
 	var3 is empty?   <?php echo empty($var3); ?> <br/><br />		
-
+```
 
 
 [Back](https://github.com/stefan22/phpIntro)
