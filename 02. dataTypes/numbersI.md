@@ -18,42 +18,44 @@ ex.
 	Square root:	<?php echo sqrt(100); ?> <br />	
 ```	
 
+### Modulo:	
 
-	//module like reminder in js
-	Modulo:			
+- module like reminder in js
+	
 	<?php echo fmod(20,7); ?> <br />	
 
-				Random:			<?php echo rand(); ?> <br />		//returns a random number
+	Random:	
+	
+	//returns a random number
+	<?php echo rand(); ?> <br />	
+	
+	//returns a random number within ge
+	Random(min,max)	<?php echo rand(1,10); ?> <br />	
+	
+	
+### adding a value to a variable (JS like)
 
-				Random(min,max)	<?php echo rand(1,10); ?> <br />	//returns a random number within
-																ge
-
-		### adding a value to a variable /JS like
-
-			<br />
+	<br />
 			
-			+=:	<?php $var2 += 4; echo $var2 ?> <br />															
-			-=
-			*=
-			/=
+	+=:	<?php $var2 += 4; echo $var2 ?> <br />															
+	-=
+	*=
+	/=
 
 
-		### incrementing by 1  --just like javascript
+### incrementing by 1  --just like javascript
 		
-			<br>
+	<br>
 
-			Increment: <?php $var2 ++; echo $var2; ?> <br />
-			Decrement: 
-
-
+	Increment: <?php $var2 ++; echo $var2; ?> <br />
+	Decrement: 
 
 
 
 
-*   [Back](https://github.com/stefan22/phpIntro)
 
 
-
+[Back](https://github.com/stefan22/phpIntro)
 
 
 
