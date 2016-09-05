@@ -9,7 +9,7 @@
 		- Add MySQL to path (inside .bash_profile if you don't already have one)
 		  which mysql, which php or find the path
 
-			ex: export PATH="/usr/local/mysql/bin:$PATH" or add on to an existing path
+			> ex: export PATH="/usr/local/mysql/bin:$PATH" or add on to an existing path
 
 		- Text editor (I have sublime setup by default instead of nano) cli and alias configured 
 		  to open it via terminal either with 'subl' or 'sublime'
