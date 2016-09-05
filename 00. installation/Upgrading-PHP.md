@@ -13,15 +13,11 @@
 			display_errors = On
 			error_reporting = E_All
 			html_errors
-
-
 		- Output buffering
 			output_buffering
-
 		- Timezone
 			date.timezone = "Europe/London"
 
-		
 
 ### 	PHP.d file
 	
