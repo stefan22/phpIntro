@@ -21,17 +21,18 @@ ex.
 ### Modulo:	
 
 - module like reminder in js
-	
+```	
 	<?php echo fmod(20,7); ?> <br />	
-
+```
 	Random:	
-	
+```	
 	//returns a random number
 	<?php echo rand(); ?> <br />	
-	
+```	
+```
 	//returns a random number within ge
 	Random(min,max)	<?php echo rand(1,10); ?> <br />	
-	
+```	
 	
 ### adding a value to a variable (JS like)
 
