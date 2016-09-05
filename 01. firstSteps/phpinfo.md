@@ -78,10 +78,10 @@
 #### Default document root
 
 - /Library/WebServer/Documents
-	//It is good practice to set your own document root at "User document root"
-	//New User document root at:
+..* //It is good practice to set your own document root at "User document root"
+..* //New User document root at:
 - /Users/username/Sites
-	  //Apache configuration directory
+..* //Apache configuration directory
 - /etc/apache2/users	
 
 #### PHP
