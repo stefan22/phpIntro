@@ -1,4 +1,5 @@
-# null  (no value / no zero no empty string | lack of having a value)
+# null  
+- no value / no zero no empty string | lack of having a value
 
 ### is_null, isset
 
