@@ -42,6 +42,7 @@ ex.
 	<?php $mixed[2] = "cat"; ?>    //adds string "cat" at position 2
 
 	<?php $mixed[] = "mouse"; ?>   //add string "mouse" at the end of array
+```
 
 
 [Back](https://github.com/stefan22/phpIntro)
