@@ -23,8 +23,8 @@ ex.
 
 #### Ask PHP whether is integer or a float
 - It returns true or false => but gets converted into a number 
-..* 1 for true
-..* nothing/no value for false
+..*1 for true
+..*nothing/no value for false
 	
 		-ex
 			<?php $integer = 3; ?>
