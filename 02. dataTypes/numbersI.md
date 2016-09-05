@@ -1,20 +1,27 @@
-## Numbers p1 - Integers
+# Numbers p1 (Integers)
 
-	## Integers ->  ....-2,1,0,1,1,3...  //whole numbers
+### Integers 
 
-	### abs, pow, sqrt, fmod, rand, rand functions
+-  ....-2,1,0,1,1,3...  //whole numbers
 
-		ex.
-			<br/>
+### abs, pow, sqrt, fmod, rand, rand functions
 
-				Absolute value: <?php echo abs(0 -300); ?> <br />	//returns the absolute value
+```
+ex.
+	//returns the absolute value
+	Absolute value: <?php echo abs(0 -300); ?> <br />	
 
-				Exponential:	<?php echo pow(2,8); ?> <br />		//raising something to the power
-																	// of something
+	//raising something to the power of something
+	Exponential:	<?php echo pow(2,8); ?> <br />		
+	
+	//square root
+	Square root:	<?php echo sqrt(100); ?> <br />	
+```	
 
-				Square root:	<?php echo sqrt(100); ?> <br />		//square root
 
-				Modulo:			<?php echo fmod(20,7); ?> <br />	//module like reminder in js
+	//module like reminder in js
+	Modulo:			
+	<?php echo fmod(20,7); ?> <br />	
 
 				Random:			<?php echo rand(); ?> <br />		//returns a random number
 
