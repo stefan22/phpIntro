@@ -24,7 +24,7 @@
 
 ### implode 	// turns an array into a string
 
-Implode:
+- Implode:
 
 	<?php $num_string = implode(" * ", $numbers); ?>  <br/><br/>
 
