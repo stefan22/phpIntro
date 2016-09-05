@@ -26,13 +26,13 @@
 
 - Implode:
 ```
-	<?php $num_string = implode(" * ", $numbers); ?>  <br/><br/>
+	<?php $num_string = implode(" * ", $numbers); ?>  
 ```
 ### explode		(is the opposite of implode)
 	
 - Explode:
 ```
-	<?php print_r(explode(" * ", $num_string)); ?>  <br/><br/>
+	<?php print_r(explode(" * ", $num_string)); ?>  
 ```
 ### in_array		 (find if something is in an array)
 
