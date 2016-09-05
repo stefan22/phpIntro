@@ -54,7 +54,7 @@ ex
 - outputting the variable inside the quotes - able to do so cause still has the dollar sign so it's read 
   as a variable
 
->	note: it only working when using double quotes.
+>	note: it only works when using double quotes.
 
 ```
 	<?php
