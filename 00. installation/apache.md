@@ -14,14 +14,14 @@
 
 	- /Library/WebServer/Documents 	//default document root
 
-	#### Changing it to User document root
-		- ~/Sites
-		- /Users/myname/Sites
+#### Changing it to User document root
+	- ~/Sites
+	- /Users/myname/Sites
 
-	- Apache configuration directory
-		- /etc/apache2/users/Stefano.conf
-		- change permissions to chmod 644 Stefano.conf
+#### Apache configuration directory
+	- /etc/apache2/users/Stefano.conf
+	- change permissions to chmod 644 Stefano.conf
 
 
 
-*   [Back](https://github.com/stefan22/phpIntro)
+[Back](https://github.com/stefan22/phpIntro)
