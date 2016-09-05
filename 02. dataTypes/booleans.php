@@ -2,10 +2,10 @@
    "http://www.w3.org/TR/html4/loose.dtd">
 
 <html lang="en">
-	<head>
-		<title>sandbox</title>
-	</head>
-	<body>
+<head>
+	<title>sandbox</title>
+</head>
+<body>
 		
 
 	<?php
@@ -22,6 +22,5 @@
 		
 
 
-				
-	</body>
+</body>
 </html>
