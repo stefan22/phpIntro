@@ -1,31 +1,30 @@
-## floating numbers or decimals
+# floating numbers or decimals
+- can't divide by zero
 
-	- can't divide by zero
+### float functions
 
-	### float functions
+#### round
+- takes a number that says how many significant digits do you want them to be.
+```				   
+ex
+	float,1 will take 3.14 and round it to one decimal place. (3.1)
+```
 
-		- round	-> takes a number that says how many significant digits do you want
-				   them to be.
-				   ex
-				   		float,1 will take 3.14 and round it to one decimal place. (3.1)
+#### ceiling n floor 
+- ceiling always rounds up and floor always rounds down.
+```
+ex.
+	Round: <?php echo round($float,1); ?> <br/><br/>		//3.1
 
-		- ceiling n floor ->  ceiling always rounds up and floor always rounds down.
+	Ceiling <?php echo ceil($float); ?> <br/><br/>			//4
 
-		<br />
+	Floor 	<?php echo floor($float); ?> <br/><br/>			//3
+```
 
-			Round: <?php echo round($float,1); ?> <br/><br/>		//3.1
-
-			Ceiling <?php echo ceil($float); ?> <br/><br/>			//4
-
-			Floor 	<?php echo floor($float); ?> <br/><br/>			//3
-
-		<br/>
-
-
-	### Ask PHP whether is integer or a float
-		- It returns true or false => but gets converted into a number 
-				-1 for true
-				-nothing/no value for false
+#### Ask PHP whether is integer or a float
+- It returns true or false => but gets converted into a number 
+..* 1 for true
+..* nothing/no value for false
 	
 		-ex
 			<?php $integer = 3; ?>
