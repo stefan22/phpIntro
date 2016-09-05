@@ -24,7 +24,7 @@ ex.
 ```	
 	<?php echo fmod(20,7); ?> <br />	
 ```
-	Random:	
+### Random:	
 ```	
 	//returns a random number
 	<?php echo rand(); ?> <br />	
@@ -49,7 +49,7 @@ ex.
 	<br>
 
 	Increment: <?php $var2 ++; echo $var2; ?> <br />
-	Decrement: 
+	Decrement: guess
 
 
 
