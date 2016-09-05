@@ -8,11 +8,14 @@
 ```
 ex.
 	<?php
-	$max_width = 980;		//this is a variable
+	//this is a variable
+	$max_width = 980;		
 
-	define('MAX_WIDTH', 980);	//this is a contant  
-					//we use quotes to define it 
-	echo MAX_WIDTH;			//but once define we can just call it
+	//this is a contant. we use quotes to define it  
+	define('MAX_WIDTH', 980);
+	
+	//but once defined we can just call it				
+	echo MAX_WIDTH;			
 
 	//can't change the value
 	MAX_WIDTH += 1;
