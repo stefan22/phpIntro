@@ -15,8 +15,8 @@
 - version 5.0
 - object oriented interface
 - other db not supported only MySQL
- - procedural (as oppose to Object Oriented), and Object Oriented interface
- - prepared statements
+- procedural (as oppose to Object Oriented), and Object Oriented interface
+- prepared statements
 
 ### PDO
 
