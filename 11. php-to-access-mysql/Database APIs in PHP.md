@@ -167,8 +167,8 @@ Four ways to retrieve data from a query result:
 ```
     <?php
               // 3. use returned data (if any)
-              while ($row = mysqli_fetch_row($result) {            // grabs first row and then 
-              // output data from each row                         // continues on until able to grab rows   
+              while ($row = mysqli_fetch_row($result) {       // grabs first row and then 
+              // output data from each row                    // continues on until able to grab rows   
               $row["id"] . "<br />";
               $row["menu_name"] . "<br />";
               $row["position"] . "<br />";
