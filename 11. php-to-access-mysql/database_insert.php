@@ -18,12 +18,15 @@
 <?php
      // Often these are form values in $_POST
      $menu_name = "Edit me";
-     $position = 4;
-     $visible = 1;
+     $position = (int) 4;
+     $visible = (int) 1;
+
+     //escaping the POST before adding it to step 2 - No need to escape integers
+     $menu_name = mysqli_real_escape_string($conection, $menu_name);
 
      // 2. perform database query
      $query = "INSERT INTO  subjects (menu_name, position, visible)
-               VALUES ('{$menu_name}', '{$position}', '{$visible}')" 
+               VALUES ('{$menu_name}', {$position}, {$visible})" 
     
      $result = mysqli_query( $connection, $query);
      // test if there was a query error - if it returns empty you won't get an error
