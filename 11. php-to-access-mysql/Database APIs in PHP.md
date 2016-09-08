@@ -47,7 +47,7 @@
 
 ### objet-oriented 
 - here we're creating a new object and all of the functions that we call are inside of the object
-
+---
 - $mysqli  =  new mysqli 
 - $mysqli  -> connect_errno
 - $mysqli  -> connect_error
