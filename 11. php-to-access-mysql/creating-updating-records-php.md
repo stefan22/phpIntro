@@ -86,8 +86,9 @@
 			    
      $result = mysqli_query( $connection, $query);
      // test if there was a query error - if it returns empty you won't get an error
-     if (!$result && mysqli_affected_rows($connection) == 1) {   // it looks at last query and how many rows were changed
-                                                                 // just to see if was actually updated 
+     
+     // it looks at last query and how many rows were changed just to see if was actually updated 
+     if (!$result && mysqli_affected_rows($connection) == 1) {   
           die("Database query failed");
      }
       or
@@ -126,8 +127,9 @@
 
      $result = mysqli_query( $connection, $query);
      // test if there was a query error - if it returns empty you won't get an error
-     if (!$result && mysqli_affected_rows($connection) == 1) {   // it looks at last query and how many rows were changed
-                                                                 // just to see if was actually updated 
+     
+     // it looks at last query and how many rows were changed just to see if was actually updated 
+     if (!$result && mysqli_affected_rows($connection) == 1) {   
           die("Database query failed");
      }
       or
