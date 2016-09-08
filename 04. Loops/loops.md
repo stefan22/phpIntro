@@ -15,7 +15,7 @@ ex.
 	  echo $count;
 	  $count +=1;
 	}
-
+```
 
 ### for loops
 
