@@ -56,10 +56,13 @@
 
 ```
 
-> What if you need to know the id of the last inserted record?
+> What if you need to know the id of the `last inserted record`?
+
 > mysqli_insert_id()
+
 > mysqli_insert_id($connection); 
-> it returns the ID of the most recently inserted record on that connection.
+
+> it returns the ID of the `most recently inserted` record on that connection.
 
 
 
