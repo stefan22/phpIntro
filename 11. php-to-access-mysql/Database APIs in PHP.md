@@ -1,20 +1,22 @@
 # PHP 
 - has 3 different ways to connect to MySQL (database API)
 
-- mysql
-     - original MySQL API
-     - only API for version 2, 3 and 4 of PHP
-     - preconfigured for MySQL
-     - other db not supported only MySQL
-     - procedural (as oppose to Object Oriented)
+### mysql
 
-     - mysqli
-               - MySQL "improved" API
-               - version 5.0
-               - object oriented interface
-               - other db not supported only MySQL
-                - procedural (as oppose to Object Oriented), and Object Oriented interface
-                - prepared statements
+- original MySQL API
+- only API for version 2, 3 and 4 of PHP
+- preconfigured for MySQL
+- other db not supported only MySQL
+- procedural (as oppose to Object Oriented)
+
+### mysqli
+
+- MySQL "improved" API
+- version 5.0
+- object oriented interface
+- other db not supported only MySQL
+ - procedural (as oppose to Object Oriented), and Object Oriented interface
+ - prepared statements
 
      - PDO
                - PHP Data Objects 
