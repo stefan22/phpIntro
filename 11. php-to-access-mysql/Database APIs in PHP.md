@@ -102,12 +102,12 @@
 
 ```
 
-## Retrieving data from MySQL   (MySQL  API functions)
+### Retrieving data from MySQL   (MySQL  API functions)
 
-          mysqli_query()                               // to do our querying
-          mysqli_fetch_row()                           // for when we get results back    
-          mysqli_free_result()                         // to tell MySQL to free the result at the end  
-                                                       // - flush mem
+- mysqli_query()                               // to do our querying
+- mysqli_fetch_row()                           // for when we get results back    
+- mysqli_free_result()                         // to tell MySQL to free the result at the end  
+                                             // - flush mem
 
 
 
@@ -132,7 +132,7 @@ ex.
                              
 ```
 
-## Working with Retrieved Data
+### Working with Retrieved Data
 
 -Four ways to retrieve data from a query result:
 
