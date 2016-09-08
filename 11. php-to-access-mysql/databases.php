@@ -103,3 +103,4 @@
      // 5 close database connection
      mysqli_close($connection);
 ?>
+
