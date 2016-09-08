@@ -1,5 +1,5 @@
 # PHP 
-- has 3 different ways to connect to MySQL (database API)
+it has 3 different ways to connect to MySQL (database API)
 
 ### mysql
 
