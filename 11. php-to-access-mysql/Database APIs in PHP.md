@@ -2,11 +2,11 @@
 - has 3 different ways to connect to MySQL (database API)
 
 - mysql
-..*original MySQL API
-..- only API for version 2, 3 and 4 of PHP
-..- preconfigured for MySQL
-..- other db not supported only MySQL
-..- procedural (as oppose to Object Oriented)
+     - original MySQL API
+     - only API for version 2, 3 and 4 of PHP
+     - preconfigured for MySQL
+     - other db not supported only MySQL
+     - procedural (as oppose to Object Oriented)
 
      - mysqli
                - MySQL "improved" API
