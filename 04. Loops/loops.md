@@ -36,11 +36,11 @@ ex.
 - the end of the array is what ends the looping
 - no condition or incrementing
 
-```
+
 	foreach ($array as $value) {
 		statement;
 	}
-```
+
 
 ```
 ex.
