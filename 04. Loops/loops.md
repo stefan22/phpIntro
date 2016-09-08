@@ -87,7 +87,8 @@ ex.
 				echo $count . " . ";
 			}
 
-#Break   ->  will end execution of the loop. Not just the current iteration, but all interations.			
+### Break   
+- will end execution of the loop. Not just the current iteration, but all interations.			
 
 
 			ex.  for($count=0; count <=10; count++) {
@@ -97,7 +98,7 @@ ex.
 				echo $count . " . ";
 			}
 
-#Array pointers
+### Array pointers
 			
 			$ages = array(3,4,6,12,15,32);
 
