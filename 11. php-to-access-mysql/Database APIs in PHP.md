@@ -107,11 +107,14 @@ here we're creating a new object and all of the functions that we call are insid
 
 ### Retrieving data from MySQL   (MySQL  API functions)
 
-- mysqli_query()                               // to do our querying
-- mysqli_fetch_row()                           // for when we get results back    
-- mysqli_free_result()                         // to tell MySQL to free the result at the end  
-                                             // - flush mem
-
+<dl>
+<dt>mysqli_query()</dt>  
+<dd>to do our querying</dd>
+<dt>mysqli_fetch_row()</dt>
+<dd>for when we get results back</dd>    
+<dt>mysqli_free_result()</dt>
+<dd>to tell MySQL to free the result at the end flush mem</dd>
+</dl>
 
 
 ```
