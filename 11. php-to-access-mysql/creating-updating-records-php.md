@@ -166,14 +166,14 @@ limit is most useful with delete, to make sure that we only delete one
 #### a non so innocent syntax error
 
 ```
-ex (Please don't try this ... ever.)
+ex 
 
   $menu_name = "'); DROP TABLE subjects; '";
 
 it's taking a simple insert statement and turning into dropping our entire table of subjects
 
 ```
- or it can have database export all users and their passwords
+ sql inject can also be used to have a database export all users and their passwords
 
 
 
@@ -217,7 +217,7 @@ ex. imagine this came from the POSt
 
 ```
 
-> you should escape anything that comes fro a user,whether a form value, a cookie value
+> you should escape anything that comes from a user,whether a form value, a cookie value
 > even your database values which may have been originated from somewhere else
 
 > the only thing you don't want to escape is something that's already been escaped
