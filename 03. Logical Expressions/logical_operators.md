@@ -1,47 +1,50 @@
 # Logical operators
 
-		###Comparison
-			- equal ==
-			- identical ===
-			- compare: > < >= <=
-			- not equal !=
-			- not identical !==
+### Comparison
+- equal ==
+- identical ===
+- compare: > < >= <=
+- not equal !=
+- not identical !==
 
-		###Logical	
-			- &&
-			- ||
+### Logical	
+- &&
+- ||
 
+```
+ex. 
+	<?php
+	$a = 4;
+	$b = 3;
+	$c = 1;
+	$d = 20;
 
-			ex. 
-				<?php
-					$a = 4;
-					$b = 3;
-					$c = 1;
-					$d = 20;
+	if($a > $b) && ($c > $d) {
+	  echo "a is larger than b and";
+	  echo "c is larger than d";
+	}
 
-					if($a > $b) && ($c > $d) {
-						echo "a is larger than b and";
-						echo "c is larger than d";
-					}
+	?>
 
-				?>
+	<br><br />
+```
 
-				<br><br />
+```
+	<?php
+	
+	if(!isset $e) {
+          echo $e;
+	}
+	?>
 
-				<?php
-					
-					if(!isset $e) {
-						echo $e;
-					}
-				?>
+	<br /><br />
+```
 
-				<br /><br />
+	<?php
+	$quantity = 0;
+	if(empty($quantity) && !is_numeric($quantity)) {
+	  echo "you must enter a quantity";
+	}
+	?>
 
-				<?php
-					$quantity = 0;
-					if(empty($quantity) && !is_numeric($quantity)) {
-						echo "you must enter a quantity";
-					}
-				?>
-
-*   [Back](https://github.com/stefan22/phpIntro)
+[Back](https://github.com/stefan22/phpIntro)
