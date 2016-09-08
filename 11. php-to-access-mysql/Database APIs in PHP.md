@@ -18,90 +18,87 @@
  - procedural (as oppose to Object Oriented), and Object Oriented interface
  - prepared statements
 
-     - PDO
-               - PHP Data Objects 
-               - Only Object Oriented
-               - version 5.1
-               - object oriented interface (has to do with creating classes and placing functions 
-                 inside of them)
-               - supports other databases - you can use Postgres
-               - Configured in PHP.ini
-               - prepared statements
+### PDO
 
-     - All 3 extremely similar but there's a few key differences.
-     - PHP 5.5v MySQL is going to be deprecated not sure - i got 5.5 on my mac
+- PHP Data Objects 
+- Only Object Oriented
+- version 5.1
+- object oriented interface (has to do with creating classes and placing functions inside of them)
+- supports other databases - you can use Postgres
+- Configured in PHP.ini
+- prepared statements
 
-
-##                  Procedural and Objected Oriented (basically functions we call to do things witht it)
-
-###                 procedural                                               
-
-                    mysqli_connect
-                    mysqli_connect_errno
-                    mysqli_connect_errno
-                    mysqli_real_escape_string
-                    mysqli_query
-                    mysqli_fetch_assoc
-                    mysqli_close
+- All 3 extremely similar but there's a few key differences.
+- PHP 5.5v MySQL is going to be deprecated not sure - i got 5.5 on my mac
 
 
-###                 objet-oriented (here we're creating a new object and all of the functions that 
-                    we call are inside of the object)
+### Procedural and Objected Oriented (basically functions we call to do things witht it)
 
-                    $mysqli  =  new mysqli 
-                    $mysqli  -> connect_errno
-                    $mysqli  -> connect_error
-                    $mysqli  -> real_escape_string
-                    $mysqli -> query
-                    $mysqli  -> fetch_assoc
-                    $mysqli  -> close
+### procedural                                               
 
-
-####                http://php.net/manual/en/mysqlinfo.api.choosing.php
+- mysqli_connect
+- mysqli_connect_errno
+- mysqli_connect_errno
+- mysqli_real_escape_string
+- mysqli_query
+- mysqli_fetch_assoc
+- mysqli_close
 
 
-# PHP database interaction :
+### objet-oriented 
+- here we're creating a new object and all of the functions that we call are inside of the object
 
-     1. Create database connection - should only happen once per php script
-     2. perform database query - add, delete update
-     3. return data - if we do a select
-     4. release returned data - free up mem that was used to hold query
-     5. close database connection - should only happen once per php script
+- $mysqli  =  new mysqli 
+- $mysqli  -> connect_errno
+- $mysqli  -> connect_error
+- $mysqli  -> real_escape_string
+- $mysqli -> query
+- $mysqli  -> fetch_assoc
+- $mysqli  -> close
 
-##        Create n Close Connection
 
-                    - mysqli_connect()
-                    - mysqli_connect_errno()
-                    - mysqli_connect_error()
-                    - mysqli_close()
+#### http://php.net/manual/en/mysqlinfo.api.choosing.php
 
-                    
+
+### PHP database interaction :
+
+1. Create database connection - should only happen once per php script
+2. perform database query - add, delete update
+3. return data - if we do a select
+4. release returned data - free up mem that was used to hold query
+5. close database connection - should only happen once per php script
+
+### Create n Close Connection
+
+- mysqli_connect()
+- mysqli_connect_errno()
+- mysqli_connect_error()
+- mysqli_close()
+
 ```
-                  <?php
-                         //1. Create database connection
-                         $dbhost = "localhost";
-                         $dbuser = "widget_cms";
-                         $dbpass = "stefano";
-                         $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+  <?php
+  //1. Create database connection
+  $dbhost = "localhost";
+  $dbuser = "widget_cms";
+  $dbpass = "stefano";
+  $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-                         // test if connection occurred. better to use errno cause connect_error 
-                            returns an 
-                            empty string if no problem
-                         if (mysqli_connect_errno())  {
-                              die("Database connection failed: " .
-                                   mysqli_connect_error() .
-                                   " (" . mysqli_connect_errno() .  ")"
-                              );
-                         }
-                         // connection closed at the bottom of this page
-                  ?>
+  // test if connection occurred. better to use errno cause connect_error returns an 
+  // empty string if no problem
+  if (mysqli_connect_errno())  {
+  die("Database connection failed: " .
+  mysqli_connect_error() .
+  " (" . mysqli_connect_errno() .  ")"
+  );
+  }
+  // connection closed at the bottom of this page
+  ?>
 
-                  // at end of page or anywhere
-                  <?php
-                         // 5 close database connection
-                         mysqli_close($connection);
-                  ?>
-
+  // at end of page or anywhere
+  <?php
+  // 5 close database connection
+  mysqli_close($connection);
+  ?>
 
 ```
 
