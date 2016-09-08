@@ -2,11 +2,10 @@
 
 ### while loops
 
-```
 	while (expression) {
 		statement;
 	}
-```
+
 
 ```
 ex.
