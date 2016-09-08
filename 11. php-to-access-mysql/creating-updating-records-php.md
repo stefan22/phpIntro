@@ -105,6 +105,7 @@
 
 ?>
 ```
+
 - 1 means how many rows were affected
 - it checks that in fact, database was updated cause you can get success without updating any records too
 - if you pass the same values to the database mysql will return 0
@@ -146,9 +147,9 @@
 
 ?>
 		
-``
+```
 
- limit is most useful with delete, to make sure that we only delete one
+limit is most useful with delete, to make sure that we only delete one
 
 
 
