@@ -69,37 +69,37 @@
 ### Updating records
 
 ```
-	<?php
-	     // Often these are form values in $_POST
-	     $id = 5;
-	     $menu_name = "Delete me";
-	     $position = 4;
-	     $visible = 1;
+<?php
+     // Often these are form values in $_POST
+     $id = 5;
+     $menu_name = "Delete me";
+     $position = 4;
+     $visible = 1;
 
-	     // 2. perform database query
-	     $query  = "UPDATE subjects SET ";
-	     $query .= "menu_name ='{$menu_name}', ";
-	     $query .= "position ='{$position}', ";
-	     $query .= "visible ='{$visible}' ";
-	     $query .= "WHERE id ='{$id}'";
+     // 2. perform database query
+     $query  = "UPDATE subjects SET ";
+     $query .= "menu_name ='{$menu_name}', ";
+     $query .= "position ='{$position}', ";
+     $query .= "visible ='{$visible}' ";
+     $query .= "WHERE id ='{$id}'";
 			              
 			    
-	     $result = mysqli_query( $connection, $query);
-	     // test if there was a query error - if it returns empty you won't get an error
-	     if (!$result && mysqli_affected_rows($connection) == 1) {   // it looks at last query and how many rows were changed
-	                                                                 // just to see if was actually updated 
-	          die("Database query failed");
-	     }
-	      or
-             if ($result) {
-	      // Success
-	      // redirect_to("someone.php")
-	           echo "Success";
-              } else {
-	      // failure
-	      // $message = "Subject update failed"
-	          die("Database query failed " . mysqli_error($connection));
-	    }
+     $result = mysqli_query( $connection, $query);
+     // test if there was a query error - if it returns empty you won't get an error
+     if (!$result && mysqli_affected_rows($connection) == 1) {   // it looks at last query and how many rows were changed
+                                                                 // just to see if was actually updated 
+          die("Database query failed");
+     }
+      or
+     if ($result) {
+      // Success
+      // redirect_to("someone.php")
+           echo "Success";
+      } else {
+      // failure
+      // $message = "Subject update failed"
+          die("Database query failed " . mysqli_error($connection));
+      }
 
 
 ?>
@@ -113,33 +113,33 @@
 
 ```
 <?php
-	     // Often these are form values in $_POST
-	     $id = 5;
+     // Often these are form values in $_POST
+     $id = 5;
 				    
 
-	     // 2. perform database query
-	     $query  = "DELETE FROM subjects ";
-	     $query .= "WHERE id = {$id} ";
-	     $query .= "LIMIT 1";
+     // 2. perform database query
+     $query  = "DELETE FROM subjects ";
+     $query .= "WHERE id = {$id} ";
+     $query .= "LIMIT 1";
 				              
-	    //query for debug purposes
+    //query for debug purposes
 
-	     $result = mysqli_query( $connection, $query);
-	     // test if there was a query error - if it returns empty you won't get an error
-	     if (!$result && mysqli_affected_rows($connection) == 1) {   // it looks at last query and how many rows were changed
-	                                                                 // just to see if was actually updated 
-	          die("Database query failed");
-	     }
-	      or
-       	     if ($result) {
-	      // Success
-	      // redirect_to("someone.php")
-	          echo "Success";
-	      } else {
-	      // failure
-	      // $message = "Subject delete failed"
-	          die("Database query failed " . mysqli_error($connection));
-	      }
+     $result = mysqli_query( $connection, $query);
+     // test if there was a query error - if it returns empty you won't get an error
+     if (!$result && mysqli_affected_rows($connection) == 1) {   // it looks at last query and how many rows were changed
+                                                                 // just to see if was actually updated 
+          die("Database query failed");
+     }
+      or
+     if ($result) {
+      // Success
+      // redirect_to("someone.php")
+          echo "Success";
+      } else {
+      // failure
+      // $message = "Subject delete failed"
+          die("Database query failed " . mysqli_error($connection));
+      }
 
 
 ?>
