@@ -32,7 +32,9 @@
 - PHP 5.5v MySQL is going to be deprecated not sure - i got 5.5 on my mac
 
 
-### Procedural and Objected Oriented (basically functions we call to do things witht it)
+### Procedural and Objected Oriented
+
+basically functions we call to do things witht it
 
 ### procedural                                               
 
@@ -135,7 +137,7 @@ ex.
 
 ### Working with Retrieved Data
 
--Four ways to retrieve data from a query result:
+Four ways to retrieve data from a query result:
 
 ### mysqli_fetch_row
 
