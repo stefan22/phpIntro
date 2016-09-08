@@ -117,6 +117,7 @@ here we're creating a new object and all of the functions that we call are insid
 </dl>
 
 
+
 ```
 ex.
     $query = "SELECT * FROM subjects";
