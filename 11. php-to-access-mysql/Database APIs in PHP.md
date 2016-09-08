@@ -109,7 +109,15 @@
           mysqli_free_result()                         // to tell MySQL to free the result at the end  
                                                        // - flush mem
 
-          needless to say -> u must do this within ur html   
+
+
+```
+ex.
+    $query = "SELECT * FROM subjects";
+
+```                                                       
+
+           
 
 ```            
              <?php
@@ -124,7 +132,55 @@
                              
 ```
 
-*   [Back](https://github.com/stefan22/phpIntro)
+## Working with Retrieved Data
+
+-Four ways to retrieve data from a query result:
+
+### mysqli_fetch_row
+
+- brings back a row of data and assigns it to a standard array
+- key for each one of those columns are going to be integers
+
+### mysqli_fetch_assoc
+
+- results returned are in an associative array
+- as a result, the keys are going to be the column names
+
+### mysqli_fetch_array
+
+- results returned on either a standard array, or an associative array, or both
+- by default is going to bring back both types of arrays
+
+
+### fourth way sucks
+
+- forget about it
+- but mysqli_fetch_assoc is the most likely the best way to fetch results from array
+
+```
+    <?php
+              // 3. use returned data (if any)
+              while ($row = mysqli_fetch_row($result) {            // grabs first row and then 
+              // output data from each row                         // continues on until able to grab rows   
+              $row["id"] . "<br />";
+              $row["menu_name"] . "<br />";
+              $row["position"] . "<br />";
+              $row["visible"] . "<br />";
+                echo "<hr />";
+              }
+
+    ?>
+
+```
+
+
+
+
+
+
+
+
+[Back](https://github.com/stefan22/phpIntro)
 
 
 

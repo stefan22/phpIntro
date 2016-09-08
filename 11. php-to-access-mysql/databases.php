@@ -16,9 +16,11 @@
 ?>
 
 <?php
-          // 2. perform database query
+     // 2. perform database query
 
-     $query = "SELECT  *  FROM  subjects";
+     //$query = "SELECT  *  FROM  subjects";
+     $query = "SELECT * ";
+     $query .= "FROM subjects ";
      $result = mysqli_query( $connection, $query);
      // test if there was a query error - if it returns empty you won't get an error
      if (!$result) {
@@ -41,10 +43,56 @@
              <?php
                          // 3. use returned data (if any)
                          while ($row = mysqli_fetch_row($result) {       // grabs first row and then 
-                              // output data from each row                    // continues on until able to grab rows   
+                              // output data from each row              // continues on until able to grab rows   
                               var_dump($row);
                               echo "<hr />";
                          }
+
+             ?>
+
+
+
+             <?php
+                         // 3. use returned data (if any)
+                         while ($row = mysqli_fetch_row($result) {       // grabs first row and then 
+                              // output data from each row              // continues on until able to grab rows   
+                             $row["id"] . "<br />";
+                             $row["menu_name"] . "<br />";
+                             $row["position"] . "<br />";
+                             $row["visible"] . "<br />";
+                              echo "<hr />";
+                         }
+
+             ?>
+
+
+             <ul>
+               <?php
+                         // 3. use returned data (if any)
+                         while ($row = mysqli_fetch_row($result)        
+                              // output data from each row
+               {
+                                   
+               ?>               
+                    <li><?php echo $row["id"];         ?></li>
+                    <li><?php echo $row["menu_name"];  ?></li>
+                    <li><?php echo $row["position"];   ?></li>
+                    <li><?php echo $row["visible"];    ?></li>
+                           
+               <?php
+               }
+
+               ?>
+             </ul>
+
+
+
+
+
+             <?php 
+                    // 4. Released returned data
+                    mysqli_free_result($result);
+
 
              ?>  
 
