@@ -11,7 +11,8 @@
      $dbpass = "stefano";
      $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
-     // test if connection occurred. better to use errno cause connect_error returns an empty string if no problem
+     // test if connection occurred. better to use errno cause connect_error returns 
+        an empty string if no problem
      if (mysqli_connect_errno())  {
           die("Database connection failed: " .
           mysqli_connect_error() .
@@ -158,7 +159,8 @@ limit is most useful with delete, to make sure that we only delete one
 > Once we start constructing SQL queries using dynamic data from variables, then we also have to be careful
 > the values we use don't break mysql syntax.
 
-- A process where the user sends a carefully crafted URL string, or a form field value and it injects their SQL into ours.
+- A process where the user sends a carefully crafted URL string, or a form field value and it injects 
+  their SQL into ours.
 - SQL injection is the single easiest way for someone to hack your website and steal your data
 - SQL injection is the single biggest problem that you need to be guarding against as a web developer
 
