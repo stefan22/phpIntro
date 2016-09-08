@@ -100,53 +100,49 @@
 
 
 
-		<?php
-			$name = "Frank";
-			function better_hello($greeting, $target, $puntc) {
-				echo $greeting . " " . $target . $puntc . "<br />";
-			}
+	<?php
+	$name = "Frank";
+	function better_hello($greeting, $target, $puntc) {
+	   echo $greeting . " " . $target . $puntc . "<br />";
+	}
 
-			better_hello("hello", $name, "!");
-
-
-		?>
+	better_hello("hello", $name, "!");
 
 
-		<?php
-
-			function add($val1,$val2) {
-				$sum = $val1 + $val2;
-				return $sum;
-			}
-
-			$result = add(3,5);
-			echo $result;
+	?>
 
 
-			<br /><br />
+	<?php
+
+	function add($val1,$val2) {
+		$sum = $val1 + $val2;
+		return $sum;
+	}
+
+	$result = add(3,5);
+	echo $result;
 
 
-			function add_subst($val1, $val2) {
-						$add = $val1 + $val2;
-						$subst = $val1 - $val2;
-						return array($add, $subst);
-					}
+	<br /><br />
 
-					$result = add_subst(10,5);
+
+	function add_subst($val1, $val2) {
+		$add = $val1 + $val2;
+		$subst = $val1 - $val2;
+		return array($add, $subst);
+	}
+
+	$result = add_subst(10,5);
 				
 
-					echo "Add: " . $result[0] . "<br />";
-					echo " Substract: " . $result[1] . "<br />";	
+	echo "Add: " . $result[0] . "<br />";
+	echo " Substract: " . $result[1] . "<br />";	
 
 
 
 
 
-
-
-
-
-		?>
+	?>
 
 
 
