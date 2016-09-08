@@ -2,9 +2,9 @@
 
 ### while loops
 
-			while (expression) {
-				statement;
-			}
+	while (expression) {
+		statement;
+	}
 
 
 ```
