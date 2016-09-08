@@ -1,67 +1,86 @@
-#while loops
+# Loops
 
+### while loops
+
+```
 	while (expression) {
 		statement;
 	}
+```
 
-		ex.
-			$count = 0;
-			while($count <= 10) {
-				echo $count;
-				$count +=1;
-			}
+```
+ex.
+	$count = 0;
+	while($count <= 10) {
+	  echo $count;
+	  $count +=1;
+	}
 
 
-#for loops
+### for loops
 
+```
 	for (expr1, expr2, expr3) {
 		statement;
 	}			
+```
 
-		ex.
-			for($count=0; $count <=10; count++) {
-				echo $count . ", ";
-			}
+```
+	ex.
+	for($count=0; $count <=10; count++) {
+	  echo $count . ", ";
+	}
+```
 
-#for Each loops	-> 	- they take an array
-					- the end of the array is what ends the looping
-					- no condition or incrementing
+### for Each loops
+- they take an array
+- the end of the array is what ends the looping
+- no condition or incrementing
 
-					foreach ($array as $value) {
-						statement;
-					}
+```
+	foreach ($array as $value) {
+		statement;
+	}
+```
 
-					ex.
-						$ages = array(2,4,5,15,44);
+```
+ex.
+	$ages = array(2,4,5,15,44);
 
-						foreach($ages as $age) {
-							echo "Age: {$age}<br/>";
-						}
-
-
-
-					//for Associative arrays
-					
-						foreach($array as $key => $value) {
-							statement;
-						}
-
-					ex.
-						$person = array(
-							"first_name" => "Kevin",
-							"last_name"  => "Long",
-							"address"	=>  "123 Main street",
-							"city"		=>  "London" 
-							);
+	foreach($ages as $age) {
+	   echo "Age: {$age}<br/>";
+	}
+```
 
 
-						foreach($person as $key => $value) {
-							$attr_nice = ucwords(str_replace("_","", $key));
-							echo "{$attr_nice}: {$value}<br/>"
-						}			
+### for Associative arrays
 
-#Continue  -> use inside the loop to skip the rest of current iteration and to go immediately to the conditional evaluation that starts
-				the next iteration
+```					
+	foreach($array as $key => $value) {
+		statement;
+	}
+```
+
+```
+ex.
+	$person = array(
+	"first_name" => "Kevin",
+	"last_name"  => "Long",
+	"address"	=>  "123 Main street",
+	"city"		=>  "London" 
+	);
+
+
+	foreach($person as $key => $value) {
+	$attr_nice = ucwords(str_replace("_","", $key));
+	   echo "{$attr_nice}: {$value}<br/>"
+	}
+```
+
+
+### Continue  
+- use inside the loop to skip the rest of current iteration and to go immediately to the conditional 
+  evaluation that starts the next iteration
 
 			ex.  for($count=0; count <=10; count++) {
 				if($count == 5) {
