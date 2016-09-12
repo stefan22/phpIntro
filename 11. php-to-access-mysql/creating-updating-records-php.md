@@ -193,6 +193,7 @@ it's taking a simple insert statement and turning into dropping our entire table
 
 ```
 
+#### functions that do the escaping for us:
 
 - addslashes($string)
 
