@@ -41,7 +41,8 @@
 
   
   
-`FROM:ADMIN`           `TO ADMIN MENU`            
+`FROM:ADMIN`           `TO ADMIN MENU`        
+|             |                              |
 | Admin       |           Admin Menu         |
 |------------ | :--------------------------: |
 |             |                              | 
