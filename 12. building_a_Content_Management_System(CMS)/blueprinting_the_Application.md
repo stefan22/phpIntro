@@ -47,9 +47,9 @@
               |          
 | Admin Menu  |         **page content**    ||
 
-|             |         **manage admin**     |
+| Admin Menu  |         **manage admin**     |
 
-|             |         **logout**           |
+| Admin Menu  |         **logout**           |
 |             |                             || 
 
   
