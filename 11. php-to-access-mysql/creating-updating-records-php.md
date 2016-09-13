@@ -227,6 +227,29 @@ ex. imagine this came from the POSt
 
 
 
+# Prepared Statement
+
+- The general idea is that you give MySql a template for a query that you want to run, with
+  places indicated where you can fill in the blanks later
+- Prepare statements run once, and reuse many times - for future queries
+- Separate query from dynamic data - thus  completely eliminnating the possibility of SQL injection,
+  it even eliminates the need to escape your values to prevent it
+
+
+```
+ex
+      INSERT INTO subjects (
+          menu_name, position, visible
+      )   VALUES (
+          ?, ?, ?
+      )
+
+
+
+```
+> ? are the placeholders for where the data is going to go later.
+> Then, when we want to run the query; we call up the template,
+> fill in the blanks and tell MySql to run it.
 
 
 
