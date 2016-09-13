@@ -45,11 +45,11 @@
  Admin        |           Admin Menu         |
  ------------ | :--------------------------: |
               |          
-| Admin Menu  |         **page content*     ||
+| Admin Menu  |         **page content**    ||
 
-|             |         **manage admin*      |
+|             |         **manage admin**     |
 
-|             |         **logout*            |
+|             |         **logout**           |
 |             |                             || 
 
   
