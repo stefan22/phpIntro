@@ -47,10 +47,10 @@
               |          
 | Admin Menu  |         *page content*      ||
 
-              |         *manage admin*       |
+|             |         *manage admin*       |
 
-              |         *logout*             |
-              |                              | 
+|             |         *logout*             |
+|             |                              | 
 
   
   
