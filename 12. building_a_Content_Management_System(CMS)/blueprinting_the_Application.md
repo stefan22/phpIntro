@@ -29,12 +29,26 @@
   
   
   
-  |toAdminMenu        |            
+  |toAdminMenu:       |            
   |:------------------:           
   | Admin Menu        |                    
   | - manage content  |          
   | - manage admins   |         
   | - logout          |        
+  
+  
+  
+|             |            Admin Menu        ||
+to AdminMenu  | Second Header | Third Header |
+ ------------ | :-----------: | -----------: |
+              |          
+  Admin Menu  |         *page content*       ||
+
+              |         *manage admin*       |
+
+              |         *logout*             |
+              |               |              |  
+[to AdminMenu]
   
   
   
