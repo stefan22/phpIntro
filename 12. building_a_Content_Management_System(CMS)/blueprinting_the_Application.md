@@ -50,7 +50,7 @@
 | Admin Menu  |         **manage admin**     |
 
 | Admin Menu  |         **logout**           |
-|             |                              | 
+|             |                              || 
 
   
   
