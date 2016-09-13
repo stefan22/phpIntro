@@ -38,16 +38,19 @@
   
   
   
-|             |            Admin Menu        ||
-to AdminMenu  | Second Header | Third Header |
+
+  
+  
+|             |           Admin Menu        ||
+ Admin        | Second Header | Third Header |
  ------------ | :-----------: | -----------: |
               |          
-  Admin Menu  |         *page content*       ||
+  Admin Menu  |         *page content*      ||
 
               |         *manage admin*       |
 
               |         *logout*             |
-              |               |              |  
+              |                              ||  
 [to AdminMenu]
   
   
