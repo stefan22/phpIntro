@@ -19,12 +19,12 @@
     gain access. If login fails, we'll ask them to try again, and if successful, we'll take them to an admin
     menu page.
 
-  |Public                     |Admin                        |
-  |---------------            |:---------------------------:|
-  | Site pages                |   Login Page                |            
-  | - navigation              |   - form                    |            
-  | - page content            |   - username                |            
-  | - read only               |   - password                |            
+|Public                     |Admin                        |
+|---------------            |:---------------------------:|
+| Site pages                |   Login Page                |            
+| - navigation              |   - form                    |            
+| - page content            |   - username                |            
+| - read only               |   - password                |            
   
   
  --- 
