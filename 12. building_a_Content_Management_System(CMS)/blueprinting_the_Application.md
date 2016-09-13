@@ -41,7 +41,8 @@
 
   
   
-| FROM:       |         TO ADMIN MENU       ||
+| FROM:ADMIN  |   TO ADMIN MENU              |
+|------------ |:---------------------------- |
 | Admin       |           Admin Menu         |
 |------------ | :--------------------------: |
 |             |                              | 
@@ -50,7 +51,7 @@
 | Admin Menu  |         **manage admin**     |
 |             |                              |
 | Admin Menu  |         **logout**           |
-|             |                              || 
+|             |                              |
 
   
   
