@@ -26,10 +26,10 @@
 
 |Site pages               |Login Page                   |
 |---------------          |:---------------------------:|
-|                                                         |            
-| navigation   -->        |   form                    |            
-| page content -->        |   username                |            
-| read only    -->        |   password                |            
+|                                                       |            
+| navigation   -->        |   form                      |            
+| page content -->        |   username                  |            
+| read only    -->        |   password                  |            
   
   
  --- 
