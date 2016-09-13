@@ -23,7 +23,10 @@
 
 |Public                     |Admin                        |
 |---------------            |:---------------------------:|
-| Site pages                |   Login Page                |            
+
+|Site pages                 |Login Page                   |
+|---------------            |:---------------------------:|
+|                                                         |            
 | - navigation              |   - form                    |            
 | - page content            |   - username                |            
 | - read only               |   - password                |            
