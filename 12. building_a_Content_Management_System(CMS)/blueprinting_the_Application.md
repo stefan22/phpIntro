@@ -50,8 +50,8 @@
               |         *manage admin*       |
 
               |         *logout*             |
-              |                              ||  
-[to AdminMenu]
+              |                             ||  
+
   
   
   
