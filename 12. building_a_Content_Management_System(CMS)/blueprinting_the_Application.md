@@ -27,19 +27,7 @@
   | - read only               |   - password                |            
   
   
-  
-  
-  |toAdminMenu:       |            
-  |:------------------:           
-  | Admin Menu        |                    
-  | - manage content  |          
-  | - manage admins   |         
-  | - logout          |        
-  
-  
-  
-
-  
+ --- 
   
 
 __**FROM ADMIN TO: ADMIN MENU**__
