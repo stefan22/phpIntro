@@ -25,27 +25,32 @@
   | - navigation              |   - form                    |            
   | - page content            |   - username                |            
   | - read only               |   - password                |            
-  |                           |                             |            
-  |                           |        to:                  |            
-  |                           |                             |            
-  |                           |   Admin Menu                |            
-  |                           |   - manage content          |           
-  |                           |   - manage admins           |
-  |                           |   - logout                  |
-  |                           |                             |
-  |                           |                             |
-  |                           |   Manage content            |
-  |                           |   -navigation               |
-  |                           |   -subjects CRUD            |
-  |                           |   -pages CRUD               |
-  |                           |                             |
-  |                           |                             |
-  |                           |   Manage admins             |
-  |                           |   -admins CRUD              |
-  |                           |                             |
-  |                           |   Logout                    |
-  |                           |   -do logout                |
-  |                           |   -back to login            |
+  
+  
+  ### to Admin Menu:         
+ 
+ 
+    Admin Menu              
+      - manage content                    
+      - manage admins          
+      - logout       
+      
+   #### to Admin Menu >Manage content:   
+  
+Manage content         
+      -navigation            
+      -subjects CRUD          
+      -pages CRUD              
+ 
+ #### to Admin Menu > Manage admins
+ 
+Manage admins           
+      -admins CRUD           
+
+#### to Admin Menu > Logout
+Logout                 
+      -do logout     
+      -back to login           
 
 
   
