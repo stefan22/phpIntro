@@ -21,7 +21,7 @@
 
 <br />
 
-|&nbsp;&nbsp;Public side  &nbsp;&nbsp; |Admin side                   |
+|&nbsp;Public side  &nbsp;&nbsp; |Admin side                   |
 |:--------:|:----------------:|
 
 |Site pages               |Login Page                   |
