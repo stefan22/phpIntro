@@ -41,7 +41,7 @@
 
   
   
-|       TO ADMIN MENU                        |
+| FROM:       |         TO ADMIN MENU        |
 | Admin       |           Admin Menu         |
 |------------ | :--------------------------: |
 |             |                              | 
