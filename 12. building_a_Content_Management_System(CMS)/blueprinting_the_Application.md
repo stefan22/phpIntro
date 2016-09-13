@@ -42,7 +42,7 @@
   
   
 
-__**FROM ADMIN TO: ADMIN MENU**__
+_**FROM ADMIN TO: ADMIN MENU**_
 
 | Admin          |           Admin Menu         |
 |------------    | :--------------------------: |
