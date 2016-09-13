@@ -44,7 +44,7 @@
 
 | Admin       |           Admin Menu         |
  ------------ | :--------------------------: |
-              |          
+ 
 | Admin Menu  |         **page content**    ||
 
 | Admin Menu  |         **manage admin**     |
