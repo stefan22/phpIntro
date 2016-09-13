@@ -70,10 +70,10 @@
 
   
   
-  ___________________________________________________________
-  |                                                         |
-  |   Widget Corp     (Public side) (index.php?subject=1)   |
-  |---------------------------------------------------------|
+
+ 
+  | Widget Corp (Public side) | (index.php?subject=1)       |
+  |-----------------------    | :--------------------------:|
   |                           |                             |
   |  > About Widget Corp      |    Our Mission              |
   |      >Our Mission         |    Our mission has ...      |
@@ -84,10 +84,10 @@
   |                           |                             |
   -----------------------------------------------------------
 
-   __________________________________________________________
-  |                                                         |
-  |   Widget Corp     (Public side) (index.php?page=2)      |
-  |---------------------------------------------------------|
+
+                                                       
+  | Widget Corp(Public side)  | (index.php?page=2)          |
+  |-----------------------    | :--------------------------:|
   |                           |                             |
   |  > About Widget Corp      |    Our History              |
   |      Our Mission          |    Our history has ...      |
