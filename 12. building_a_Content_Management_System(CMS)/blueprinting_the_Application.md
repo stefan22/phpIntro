@@ -27,13 +27,17 @@
   | - read only               |   - password                |            
   
   
-  ### to Admin Menu:         
- 
- 
-    Admin Menu              
-      - manage content                    
-      - manage admins          
-      - logout       
+  
+  
+  |toAdminMenu        |            
+  |:------------------:           
+  | Admin Menu        |                    
+  | - manage content  |          
+  | - manage admins   |         
+  | - logout          |        
+  
+  
+  
       
    #### to Admin Menu >Manage content:   
   
