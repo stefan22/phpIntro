@@ -24,12 +24,12 @@
 |Public side &nbsp;&nbsp; &nbsp;&nbsp;  |Admin side                   |
 |:--------:|:----------------:|
 
-|Site pages                 |Login Page                   |
-|---------------            |:---------------------------:|
+|Site pages               |Login Page                   |
+|---------------          |:---------------------------:|
 |                                                         |            
-| navigation   -->        |   - form                    |            
-| page content -->        |   - username                |            
-| read only    -->        |   - password                |            
+| navigation   -->        |   form                    |            
+| page content -->        |   username                |            
+| read only    -->        |   password                |            
   
   
  --- 
