@@ -199,7 +199,8 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 |                           |  Admin Menu                                    |
 |                           |  Welcome to the admin area User                |
 |                           |     +Manage Website content                    |
-|                           |     +Logout &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+|                           |     +Logout &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+                &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 |                           |                                                |
  
   
