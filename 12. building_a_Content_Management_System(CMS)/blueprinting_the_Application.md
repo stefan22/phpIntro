@@ -136,10 +136,10 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 | Widget Corp (Public Side)         |     (index.php?subject=2)           |
 |-------------                      | :---------------------------------: |
 |                                   |                                     | 
-| About Widget Corp                 |         **Large Widgets**           |
-|                                   |         Our large widgets...        |  
-| > Products                        |                                     |
-|   &nbsp;&nbsp;>**Large Widgets**  |                                     |
+| About Widget Corp                 |                                     |
+|                                   |                                     |  
+| > Products                        |         **Large Widgets**           |
+|   &nbsp;&nbsp;>**Large Widgets**  |        Our large widgets...         |
 |   &nbsp;&nbsp;+ Small Widgets     |                                     |
 |                                   |                                     | 
 | Services                          |                                     |
@@ -150,11 +150,11 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 | Widget Corp (Public Side)         |     (index.php?page=4)              |
 |-------------                      | :---------------------------------: |
 |                                   |                                     | 
-| About Widget Corp                 |         **Small Widgets**           |
-|                                   |         Our small widgets...        |  
-| > Products                        |                                     |
+| About Widget Corp                 |                                     |
+|                                   |                                     |  
+| > Products                        |           **Small Widgets**         |
 |   &nbsp;&nbsp;+ Large Widgets     |                                     |
-|   &nbsp;&nbsp;>**Small Widgets**  |                                     |
+|   &nbsp;&nbsp;>**Small Widgets**  |           Our small widgets...      |
 |                                   |                                     | 
 | Services                          |                                     |
 
