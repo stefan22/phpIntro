@@ -111,7 +111,7 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 |-------------                    | :---------------------------------: |
 |                                 |                                     | 
 | > About Widget Corp             |         **Our Mission**             |
-|  &nbsp;&nbsp;> Our Mission      |         Our Mission has             |
+|  &nbsp;&nbsp;>**Our Mission**   |         Our Mission has             |
 |  &nbsp;&nbsp;+ Our History      |                                     |  
 |                                 |                                     |  
 | Products                        |                                     |
