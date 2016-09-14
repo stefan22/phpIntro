@@ -163,13 +163,13 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 | Widget Corp (Public Side)         |     (index.php?subject=3)           |
 |-------------                      | :---------------------------------: |
 |                                   |                                     | 
-| About Widget Corp                 |         **Retrofitting**            |
-|                                   |         We love to replace...       |  
+| About Widget Corp                 |                                     |
+|                                   |             |  
 | Products                          |                                     |
 |                                   |                                     |
-| > Services                        |                                     | 
-|   &nbsp;&nbsp;>**Retrofitting**   |                                     |
-
+| > Services                        |           **Retrofitting**          | 
+|   &nbsp;&nbsp;>**Retrofitting**   |         We love to replace...       |
+|                                   |                                     |
 
 ---
 
