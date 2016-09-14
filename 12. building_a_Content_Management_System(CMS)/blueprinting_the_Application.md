@@ -40,24 +40,29 @@ __**FROM ADMIN TO: ADMIN MENU**__
 | Admin          |           Admin Menu         |
 |------------    | :--------------------------: |
 |                |                              | 
-| Admin Menu ->  |         **page content**     |
+| Admin Menu ->  |         **manage content**     |
 |                |                              |
 | Admin Menu ->  |         **manage admin**     |
 |                |                              |
 | Admin Menu ->  |         **logout**           |
 |                |                              |
 
+
   
+__**FROM ADMIN MENU TO: MANAGE CONTENT**__
+
+| Admin               |           Admin Menu         |
+|------------         | :--------------------------: |
+|                     |                              | 
+| Manage content -->  |         **navigation**       |
+|                     |                              |
+| Manage content -->  |         **subjects CRUD**    |
+|                     |                              |
+| Manage content -->  |         **pages CRUD**       |
+|                     |                              |
+
   
-  
-      
-   #### to Admin Menu >Manage content:   
-  
-Manage content         
-      -navigation            
-      -subjects CRUD          
-      -pages CRUD              
- 
+
  #### to Admin Menu > Manage admins
  
 Manage admins           
