@@ -133,8 +133,16 @@ __**FROM ADMIN MENU TO: LOGOUT**__
   
 
 
-
-
+| Widget Corp (Public Side)       |     (index.php?subject=2)           |
+|-------------                    | :---------------------------------: |
+|                                 |                                     | 
+| About Widget Corp               |         **Large Widgets**           |
+|                                 |         Our large widgets...        |  
+| > Products                      |                                     |
+|   &nbsp;&nbsp;> Large Widgets   |                                     |
+|   &nbsp;&nbsp;+ Small Widgets   |                                     |
+|                                 |                                     | 
+| Services                        |                                     |
 
 
   | Widget Corp (Public side) | (index.php?subject=2)       |
