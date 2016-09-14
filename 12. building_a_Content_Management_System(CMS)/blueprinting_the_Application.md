@@ -111,7 +111,7 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 |-------------                    | :---------------------------------: |
 |                                 |                                     | 
 | > About Widget Corp             |         **Our Mission**             |
-|  &nbsp;&nbsp;>**Our Mission**   |         Our Mission has             |
+|  &nbsp;&nbsp;>**Our Mission**   |         Our Mission has...          |
 |  &nbsp;&nbsp;+ Our History      |                                     |  
 |                                 |                                     |  
 | Products                        |                                     |
@@ -124,8 +124,8 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 |-------------                    | :---------------------------------: |
 |                                 |                                     | 
 | > About Widget Corp             |         **Our History**             |
-|  &nbsp;&nbsp;+ Our Mission      |         Our History has             |
-|  &nbsp;&nbsp;>**Our History**   |                                     |  
+|  &nbsp;&nbsp;+ Our Mission      |                                     |
+|  &nbsp;&nbsp;>**Our History**   |          Our History has...         |  
 |                                 |                                     |  
 | Products                        |                                     |
 |                                 |                                     |
