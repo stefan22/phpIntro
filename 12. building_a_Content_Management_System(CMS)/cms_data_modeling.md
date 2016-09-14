@@ -2,13 +2,14 @@
 
 ## Tables
 
-### subjects
-- id
-- menu_name
-- position
-- visible
+| subjects    |
+|:---------:  |
+| id          |
+| menu_name   |
+| position    |
+| visible     |
 
-> subject has_many pages
+> subject **has_many** pages
 
 ### pages
 - id
