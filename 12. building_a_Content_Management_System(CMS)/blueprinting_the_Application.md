@@ -93,7 +93,7 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 ---  
 
 
-__**Finish Widget Corp  (Public)**__
+### Finish Widget Corp  (Public)
 
 | Widget Corp          |           Public Side (index.php)   |
 |-------------         | :---------------------------------: |
@@ -109,16 +109,6 @@ __**Finish Widget Corp  (Public)**__
   
 
 
-### Finish Widget Corp  (Public)
-
-
-  |   Widget Corp          |     Public side index.php         |
-  |----------------        | :-------------------------------: |
-  |                        |                                   |
-  |   About Widget Corp    |          **Welcome**              |
-  |   Products             |                                   |
-  |   Services             |                                   |
-  |                        |                                   |
 
   
 
