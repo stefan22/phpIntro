@@ -33,7 +33,7 @@
 
 <br />
 
-ex.  creating the admins table to SQL
+ex.  creating the admins table in SQL
 
 ```
 >$ mysql -u widget_cms -p widget_corp
