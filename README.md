@@ -26,7 +26,9 @@
 
 [11. php-to-access-mysql](11. php-to-access-mysql)
 
-[12. sandbox](sandbox)
+[12. building a content management system](https://github.com/stefan22/phpIntro/tree/newmaster/12.%20building_a_Content_Management_System(CMS)
+
+[13. sandbox](sandbox)
 
 
 
