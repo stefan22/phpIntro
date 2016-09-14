@@ -95,12 +95,7 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 
 
 
-  
-
-
-
-
-  Finish Widget Corp  (Public)
+#### Finish Widget Corp  (Public)
 
 
 
