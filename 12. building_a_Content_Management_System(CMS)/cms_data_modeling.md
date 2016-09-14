@@ -32,9 +32,10 @@
 
 
 
-```
+
 ex.  creating the admins table to SQL
 
+```
 >$ mysql -u widget_cms -p widget_corp
 >$ enter password: ******
 
