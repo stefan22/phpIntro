@@ -180,14 +180,14 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 
 
 
-  | Widget Corp (Admin side)| (/login.php)                       |
-  |----------------         | :---------------------------------:|
-  |                         |  Login                             |
-  |                         |  Username: ________                |
-  |                         |  Password: ________                |
-  |                         |  Submit                            |
-  |                         |                                    |
-  |                         |                                    |
+| Widget Corp (Admin side)  | (/login.php)                       |
+|---------                  | :---------------------------------:|
+|                           |  Login                             |
+|                           |  Username: ________                |
+|                           |  Password: ________                |
+|                           |  Submit                            |
+|                           |                                    |
+ 
 
 
 
