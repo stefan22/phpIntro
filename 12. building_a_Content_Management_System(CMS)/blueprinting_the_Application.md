@@ -100,7 +100,7 @@ __**Finish Widget Corp  (Public)**__
 |                      |                                     | 
 | > About Widget Corp  |         **do logout**               |
 |                      |                                     |  
-| Logout  -->          |       **back to login**             |
+| Logout  -->          |                 |
 
   
 ---  
