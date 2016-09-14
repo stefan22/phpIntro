@@ -94,18 +94,16 @@ __**FROM ADMIN MENU TO: LOGOUT**__
   
 
 
-
-#### Finish Widget Corp  (Public)
-
+__**Finish Widget Corp  (Public)**__
 
 
-  |   Widget Corp          | Public side index.php        |
-  |----------------        | :--------------------------: |
-  |                        |                              |
-  |   About Widget Corp    |  Welcome                     |
-  |   Products             |                              |
-  |   Services             |                              |
-  |                        |                              |
+  |   Widget Corp          | Public side index.php         |
+  |----------------        | :---------------------------: |
+  |                        |                               |
+  |   About Widget Corp    |  **Welcome**                  |
+  |   Products             |                               |
+  |   Services             |                               |
+  |                        |                               |
 
   
 
