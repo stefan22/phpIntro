@@ -105,15 +105,20 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 | Services             |                                     |
 
   
----  
+  
+  
+| Widget Corp (Public Side)  |     (index.php?subject=1)           |
+|-------------               | :---------------------------------: |
+|                            |                                     | 
+| > About Widget Corp        |         **Welcome**                 |
+|                            |                                     |  
+| Products                   |                                     |  
+|                            |                                     |
+| Services                   |                                     |
+ 
+
   
 
-
-
-  
-
-
-  
   
 
  
