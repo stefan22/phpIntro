@@ -11,13 +11,17 @@
 
 > subject **has_many** pages
 
-### pages
-- id
-- subject_id (foreign key related to subjects)
-- menu_name
-- position
-- visible
-- content
+|  pages           |
+|:---------        |
+| -id              |
+| -subject_id *    |
+| -menu_name       |
+| -position        |
+| -visible         |
+| -content         |
+
+* foreign key related to subjects
+
 
 ### admins
 - id
