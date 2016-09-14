@@ -111,11 +111,12 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 |-------------               | :---------------------------------: |
 |                            |                                     | 
 | > About Widget Corp        |         **Welcome**                 |
+|     > Our Mission          |                                     |
+|     + Our History          |                                     |  
 |                            |                                     |  
-| Products                   |                                     |  
+| Products                   |                                     |
 |                            |                                     |
-| Services                   |                                     |
- 
+| Services                   |                                     | 
 
   
 
