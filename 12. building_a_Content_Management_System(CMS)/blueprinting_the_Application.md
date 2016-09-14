@@ -168,7 +168,7 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 | Products                          |                                     |
 |                                   |                                     |
 | > Services                        |                                     | 
-|   &nbsp;&nbsp;>**Retrofitting* *  |                                     |
+|   &nbsp;&nbsp;>**Retrofitting**   |                                     |
 
 
 ---
