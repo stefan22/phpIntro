@@ -107,16 +107,16 @@ __**FROM ADMIN MENU TO: LOGOUT**__
   
   
   
-| Widget Corp (Public Side)  |     (index.php?subject=1)           |
-|-------------               | :---------------------------------: |
-|                            |                                     | 
-| > About Widget Corp        |         **Our Mission**             |
-|     > Our Mission          |         Our Mission has             |
-|     + Our History          |                                     |  
-|                            |                                     |  
-| Products                   |                                     |
-|                            |                                     |
-| Services                   |                                     | 
+| Widget Corp (Public Side)       |     (index.php?subject=1)           |
+|-------------                    | :---------------------------------: |
+|                                 |                                     | 
+| > About Widget Corp             |         **Our Mission**             |
+|  &nbsp;&nbsp;> Our Mission      |         Our Mission has             |
+|  &nbsp;&nbsp;+ Our History      |                                     |  
+|                                 |                                     |  
+| Products                        |                                     |
+|                                 |                                     |
+| Services                        |                                     | 
 
   
 
