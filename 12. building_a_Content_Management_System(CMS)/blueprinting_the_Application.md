@@ -194,13 +194,13 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 > Once submitted:
 
 
-| Widget Corp(Admin side)   |  (/admin.php)                      |
-|----------                 | :---------------------------------:|
-|                           |  Admin Menu                        |
-|                           |  Welcome to the admin area User    |
-|                           |     +Manage Website content        |
-|                           |     +Logout                        |
-|                           |                                    |
+| Widget Corp(Admin side)   |  (/admin.php)                                  |
+|----------                 | :---------------------------------:            |
+|                           |  Admin Menu                                    |
+|                           |  Welcome to the admin area User                |
+|                           |     +Manage Website content                    |
+|                           |     +Logout &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+|                           |                                                |
  
   
   
