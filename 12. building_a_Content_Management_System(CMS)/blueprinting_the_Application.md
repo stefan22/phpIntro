@@ -109,7 +109,7 @@ __**Finish Widget Corp  (Public)**__
   
 
 
-__**Finish Widget Corp  (Public)**__
+### Finish Widget Corp  (Public)
 
 
   |   Widget Corp          |     Public side index.php         |
