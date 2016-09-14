@@ -120,32 +120,19 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 
   
 
+| Widget Corp (Public Side)       |     (index.php?page=2)              |
+|-------------                    | :---------------------------------: |
+|                                 |                                     | 
+| > About Widget Corp             |         **Our History**             |
+|  &nbsp;&nbsp;+ Our Mission      |         Our History has             |
+|  &nbsp;&nbsp;> Our History      |                                     |  
+|                                 |                                     |  
+| Products                        |                                     |
+|                                 |                                     |
+| Services                        |                                     | 
   
 
- 
-  | Widget Corp (Public side) | (index.php?subject=1)       |
-  |-----------------------    | :--------------------------:|
-  |                           |                             |
-  |  > About Widget Corp      |    Our Mission              |
-  |      >Our Mission         |    Our mission has ...      |
-  |      +Our History         |                             |     
-  |    Produces               |                             |
-  |    Services               |                             |
 
-
-
-
-
-  | Widget Corp(Public side)  | (index.php?page=2)          |
-  |-----------------------    | :--------------------------:|
-  |                           |                             |
-  |  > About Widget Corp      |    Our History              |
-  |      Our Mission          |    Our history has ...      |
-  |      >Our History         |                             |     
-  |    Produces               |                             |
-  |    Services               |                             |
-  |                           |                             |
-  |                           |                             |
 
 
 
