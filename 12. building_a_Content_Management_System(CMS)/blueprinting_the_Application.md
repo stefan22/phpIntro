@@ -95,12 +95,12 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 
 __**Finish Widget Corp  (Public)**__
 
-| Widget Corp      |           Public Side (index.php)   |
-|------------      | :---------------------------------: |
-|                  |                                     | 
-| Logout  -->      |         **do logout**               |
-|                  |                                     |  
-| Logout  -->      |       **back to login**             |
+| Widget Corp          |           Public Side (index.php)   |
+|-------------         | :---------------------------------: |
+|                      |                                     | 
+| > About Widget Corp  |         **do logout**               |
+|                      |                                     |  
+| Logout  -->          |       **back to login**             |
 
   
 ---  
