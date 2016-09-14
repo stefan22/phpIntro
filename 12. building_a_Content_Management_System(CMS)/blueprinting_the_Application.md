@@ -99,13 +99,13 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 
 
 
-  |   Widget Corp             | (Public side) (index.php)   |
-  |----------------           | :--------------------------:|
-  |                           |                             |
-  |   About Widget Corp       |  Welcome                    |
-  |   Products                |                             |
-  |   Services                |                             |
-  |                           |                             |
+  |   Widget Corp          | (Public side) (index.php)    |
+  |----------------        | :--------------------------: |
+  |                        |                              |
+  |   About Widget Corp    |  Welcome                     |
+  |   Products             |                              |
+  |   Services             |                              |
+  |                        |                              |
 
   
 
