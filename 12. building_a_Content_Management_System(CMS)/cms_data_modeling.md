@@ -20,7 +20,7 @@
 | -visible         |
 | -content         |
 
-* foreign key related to subjects
+> *foreign key related to subjects
 
 
 ### admins
