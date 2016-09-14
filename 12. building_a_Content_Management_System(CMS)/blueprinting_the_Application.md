@@ -125,7 +125,7 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 |                                 |                                     | 
 | > About Widget Corp             |         **Our History**             |
 |  &nbsp;&nbsp;+ Our Mission      |         Our History has             |
-|  &nbsp;&nbsp;> Our History      |                                     |  
+|  &nbsp;&nbsp;>**Our History**   |                                     |  
 |                                 |                                     |  
 | Products                        |                                     |
 |                                 |                                     |
@@ -133,31 +133,19 @@ __**FROM ADMIN MENU TO: LOGOUT**__
   
 
 
-| Widget Corp (Public Side)       |     (index.php?subject=2)           |
-|-------------                    | :---------------------------------: |
-|                                 |                                     | 
-| About Widget Corp               |         **Large Widgets**           |
-|                                 |         Our large widgets...        |  
-| > Products                      |                                     |
-|   &nbsp;&nbsp;> Large Widgets   |                                     |
-|   &nbsp;&nbsp;+ Small Widgets   |                                     |
-|                                 |                                     | 
-| Services                        |                                     |
+| Widget Corp (Public Side)         |     (index.php?subject=2)           |
+|-------------                      | :---------------------------------: |
+|                                   |                                     | 
+| About Widget Corp                 |         **Large Widgets**           |
+|                                   |         Our large widgets...        |  
+| > Products                        |                                     |
+|   &nbsp;&nbsp;>**Large Widgets**  |                                     |
+|   &nbsp;&nbsp;+ Small Widgets     |                                     |
+|                                   |                                     | 
+| Services                          |                                     |
 
 
-  | Widget Corp (Public side) | (index.php?subject=2)       |
-  |-----------------------    | :--------------------------:|
-  |                           |                             |
-  |    About Widget Corp      |    Large Widgets            |
-  |    Products               |    Our large widgets ...    |
-  |       >Large Widgets      |                             |
-  |      +Small Widgets       |                             |     
-  |    Services               |                             |
-  |                           |                             |
-  |                           |                             |
-  |                           |                             |
-
-
+ 
 
   
 
