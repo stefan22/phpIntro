@@ -23,10 +23,13 @@
 > *foreign key related to subjects
 
 
-### admins
-- id
-- username
-- hashed_password
+|  admins              |
+|:--------             |
+| -id                  |
+| -username            |
+| -hashed_password     |
+
+
 
 
 ```
