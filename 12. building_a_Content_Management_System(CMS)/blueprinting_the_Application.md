@@ -147,7 +147,7 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 
  
 
-| Widget Corp (Public Side)         |     (index.php?page=4)           |
+| Widget Corp (Public Side)         |     (index.php?page=4)              |
 |-------------                      | :---------------------------------: |
 |                                   |                                     | 
 | About Widget Corp                 |         **Small Widgets**           |
@@ -160,26 +160,21 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 
   
 
-
- 
-
-
-
-
-  | Widget Corp (Public side) | (index.php?subject=3)       |
-  |-----------------------    | :--------------------------:|
-  |                           |                             |
-  |    About Widget Corp      |    Retrofitting             |
-  |    Products               |    We love to replace ...   |
-  |    Services               |                             |
-  |       >Retrofitting       |                             |
-  |                           |                             |
-  |                           |                             |
+| Widget Corp (Public Side)         |     (index.php?subject=3)           |
+|-------------                      | :---------------------------------: |
+|                                   |                                     | 
+| About Widget Corp                 |         **Retrofitting**            |
+|                                   |         We love to replace...       |  
+| Products                          |                                     |
+|                                   |                                     |
+| > Services                        |                                     | 
+|   &nbsp;&nbsp;>**Retrofitting* *  |                                     |
 
 
+---
 
 
-  Finish Widget Corp  (Admin)
+### Finish Widget Corp  (Admin)
 
 
 
