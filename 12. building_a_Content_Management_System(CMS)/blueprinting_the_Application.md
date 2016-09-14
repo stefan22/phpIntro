@@ -182,7 +182,7 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 
 | Widget Corp (Admin side)  | (/login.php)                       |
 |---------                  | :---------------------------------:|
-|                           |  Login                             |
+|  Login                    |                                    |
 |                           |  Username: ________                |
 |                           |  Password: ________                |
 |                           |  Submit                            |
@@ -196,7 +196,7 @@ __**FROM ADMIN MENU TO: LOGOUT**__
 
 | Widget Corp(Admin side)   |  (/admin.php)                                  |
 |----------                 | :---------------------------------:            |
-|                           |  Admin Menu                                    |
+|    Admin Menu             |                                                |
 |                           |  Welcome to the admin area User                |
 |                           |     +Manage Website content                    |
 |                           |     +Logout &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
