@@ -98,7 +98,7 @@ __**Finish Widget Corp  (Public)**__
 | Widget Corp          |           Public Side (index.php)   |
 |-------------         | :---------------------------------: |
 |                      |                                     | 
-| > About Widget Corp  |         **Welcome  **               |
+| > About Widget Corp  |         **Welcome**                 |
 |                      |                                     |  
 | Products             |                                     |
 | Services             |                                     |
