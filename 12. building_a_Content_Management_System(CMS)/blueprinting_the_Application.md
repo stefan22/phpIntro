@@ -37,15 +37,15 @@
 
 __**FROM ADMIN TO: ADMIN MENU**__
 
-| Admin          |           Admin Menu         |
-|------------    | :--------------------------: |
-|                |                              | 
-| Admin Menu ->  |         **manage content**     |
-|                |                              |
-| Admin Menu ->  |         **manage admin**     |
-|                |                              |
-| Admin Menu ->  |         **logout**           |
-|                |                              |
+| Admin           |           Admin Menu         |
+|------------     | :--------------------------: |
+|                 |                              | 
+| Admin Menu -->  |         **manage content**    |
+|                 |                              |
+| Admin Menu -->  |         **manage admin**     |
+|                 |                              |
+| Admin Menu -->  |         **logout**           |
+|                 |                              |
 
 
 ---
