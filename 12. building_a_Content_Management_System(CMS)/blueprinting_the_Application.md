@@ -52,7 +52,7 @@ __**FROM ADMIN TO: ADMIN MENU**__
   
 __**FROM ADMIN MENU TO: MANAGE CONTENT**__
 
-| Admin               |           Admin Menu         |
+| Admin Menu          |       Manage Content         |
 |------------         | :--------------------------: |
 |                     |                              | 
 | Manage content -->  |         **navigation**       |
@@ -62,17 +62,32 @@ __**FROM ADMIN MENU TO: MANAGE CONTENT**__
 | Manage content -->  |         **pages CRUD**       |
 |                     |                              |
 
+
+---
+
+
+__**FROM ADMIN MENU TO: MANAGE ADMINS**__
+
+| Admin Menu          |        Manage Admins         |
+|------------         | :--------------------------: |
+|                     |                              | 
+| Manage admins  -->  |         **admins CRUD**      |
+|                     |                              |
+
+
+__**FROM ADMIN MENU TO: LOGOUT**__
+
+| Admin Menu      |           Logout             |
+|------------     | :--------------------------: |
+|                 |                              | 
+| Logout  -->     |         **do logout**        |
+|                 |                              |  
+| Logout  -->     |       **back to login**      |
+
+  
+---  
   
 
- #### to Admin Menu > Manage admins
- 
-Manage admins           
-      -admins CRUD           
-
-#### to Admin Menu > Logout
-Logout                 
-      -do logout     
-      -back to login           
 
 
   
