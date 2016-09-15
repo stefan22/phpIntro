@@ -172,6 +172,10 @@
 				select * from subjects where visible = 1; 	                                         
 				select * from subjects where visible =1 order by menu_name ASC
 
+		##Alter table
+
+				alter table page add visible TINYINT(1) NOT NULL;
+
 
 
 # Relational database tables
