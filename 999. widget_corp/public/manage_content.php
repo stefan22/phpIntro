@@ -1,7 +1,8 @@
-<?php
+<?php  
      //1. Create database connection
-     $dbhost = "localhost";
-     $dbuser = "widget_cms";
+     $dbhost = "127.0.0.1";
+     $dbname = "widget_corp";
+     $dbuser = "root";
      $dbpass = "stefano";
      $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
@@ -11,24 +12,34 @@
                mysqli_connect_error() .
                " (" . mysqli_connect_errno() .  ")"
           );
-     }
-     // connection closed at the bottom of this page
+        
+     }  // connection closed at the bottom of this page
 ?>
 
-<?php require_once(../includes/functions.php); ?>
+<?php require_once("../includes/functions.php"); ?>
 
 <?php
      // 2. perform database query
-
      //$query = "SELECT  *  FROM  subjects";
      $query = "SELECT * ";
      $query .= "FROM subjects ";
+     $query .= "WHERE visible = 1 ";
+     $query .= "ORDER BY position ASC ";
      $result = mysqli_query( $connection, $query);
      // test if there was a query error - if it returns empty you won't get an error
      if (!$result) {
-          die("Database query failed");
+          //die("Database query failed");
+         echo 'Could not run query: ' . mysql_error();
+         
+         exit;
+          
+     } else {
+          //print_r($query);
+          //echo "<br /><br />";
+          //$json = mysqli_fetch_all ($result, MYSQLI_ASSOC);
+          //echo json_encode($json );
+          //print_r($result);
      }
-
 
 ?>
 
@@ -42,23 +53,26 @@
 	<div id="navigation">
 		
 			 <ul>
-               <?php
+              <?php
              	// 3. use returned data (if any)
-             	while ($row = mysqli_fetch_row($result)        
-                // output data from each row
-               {
-                                   
-               ?>               
-                    <li><?php echo $row["id"];         ?></li>
-                    <li><?php echo $row["menu_name"];  ?></li>
-                    <li><?php echo $row["position"];   ?></li>
-                    <li><?php echo $row["visible"];    ?></li>
-                           
-               <?php
-               }
+              // fetch with mysqli associative array method/function- it works
+              // best way to do this is to google it everytime
+             	while ($row = mysqli_fetch_array($result, MYSQLI_ASSOC))  {
+               
+              ?>
 
-               ?>
-             </ul>
+                <li>
+                    <a href="#"><?php echo $row["menu_name"] . " (" . $row["id"] . ")"; ?></a>
+                </li>
+            
+              <?php
+                    
+              }
+
+              ?> 
+      </ul>
+
+             
 
 	</div> <!--  end of div navigation  -->
 
@@ -67,12 +81,7 @@
 		<h2>Manage Content</h2>
 
 
-				<?php 
-                    // 4. Released returned data
-                    mysqli_free_result($result);
-
-
-             	?>  
+		
 
 
 
@@ -80,7 +89,12 @@
 	</div> <!--  end of div  page  -->
 
 </div>  <!--  end of div main  -->			
-			
+			   <?php 
+                    // 4. Released returned data
+                    mysqli_free_result($result);
+
+
+              ?>  
 
 <?php include("../includes/layouts/footer.php"); ?>
 
