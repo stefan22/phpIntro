@@ -47,7 +47,7 @@ header h1 {
 }
 
 #main {
-	height: 600px;
+	height: 960px;
 	width: 100%;
 	margin: 0;
 	padding:0;
@@ -56,7 +56,7 @@ header h1 {
 
 #footer {
 	clear: both;
-	height: 2em;
+	height: 6em;
 	margin:0;
 	padding:1em;
 	text-align: center;
@@ -68,12 +68,14 @@ header h1 {
 
 #navigation {
 	float: left;
-	width: 150px;
+	width: 325px;
+	/* width: 50%; */
 	height: 100%;
 	margin:0; 
 	padding:0 2em;
 	color: #d436f4;
 	background:#8d0d19;
+	padding-top: 2.7em;
 }
 
 #navigation a {
