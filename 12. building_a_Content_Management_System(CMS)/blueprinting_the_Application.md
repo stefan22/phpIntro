@@ -1,4 +1,4 @@
-# Blueprinting the Application
+# Blueprinting the Application  (Widget_Corp)
 
 - Draw diagrams or type up notes
 - clarifies work ahead and it's efficient
