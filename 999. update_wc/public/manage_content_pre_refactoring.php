@@ -1,4 +1,20 @@
-<?php require_once("../includes/db_connection.php"); ?>
+<?php  
+     //1. Create database connection
+     $dbhost = "127.0.0.1";
+     $dbname = "widget_corp";
+     $dbuser = "root";
+     $dbpass = "stefano";
+     $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+     // test if connection occurred. better to use errno cause connect_error returns an empty string if no problem
+     if (mysqli_connect_errno())  {
+          die("Database connection failed: " .
+               mysqli_connect_error() .
+               " (" . mysqli_connect_errno() .  ")"
+          );
+        
+     }  // connection closed at the bottom of this page
+?>
 
 <?php require_once("../includes/functions.php"); ?>
 
@@ -10,7 +26,20 @@
      $query .= "WHERE visible = 1 ";
      $query .= "ORDER BY position ASC ";
      $result = mysqli_query( $connection, $query);
-     confirm_query($result);
+     // test if there was a query error - if it returns empty you won't get an error
+     if (!$result) {
+          //die("Database query failed");
+         echo 'Could not run query: ' . mysql_error();
+         
+         exit;
+          
+     } else {
+          //print_r($query);
+          //echo "<br /><br />";
+          //$json = mysqli_fetch_all ($result, MYSQLI_ASSOC);
+          //echo json_encode($json );
+          //print_r($result);
+     }
 
 ?>
 
@@ -72,3 +101,7 @@
 <?php include("../includes/layouts/footer.php"); ?>
 
 
+<?php
+     // 5 close database connection
+     mysqli_close($connection);
+?>
