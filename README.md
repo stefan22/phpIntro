@@ -28,7 +28,7 @@
 
 [12. building a content management system] (https://github.com/stefan22/phpIntro/tree/newmaster/12.%20building_a_Content_Management_System(CMS))
 
-[999. widget_corp](999. widget_corp)
+[999. update_wc](999. update_wc)
 
 [sandbox](sandbox)
 
